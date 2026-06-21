@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.reddit.com/r/winlator/comments/1dq5bk2/question_how_does_winlator_really_work",
+    "name": "[Question] How does Winlator (really) work? - Reddit",
+    "snippet": "Winlator works by creating a Linux environment on Android using PRoot, running WINE within this environment, and using Box64/Box86 for handling x86 binaries on ...",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/winebox64/winlator",
+    "name": "winebox64/winlator: Android application for running  - GitHub",
+    "snippet": "Winlator is an Android application that lets you run Windows (x86_64) applications and games with Wine and Box86/Box64. Installation. Download and install the ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://winlator.org",
+    "name": "Winlator - Android app",
+    "snippet": "Winlator is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64. Box86/Box64 by ptitseb Mesa (Turnip/Zink/VirGL)",
+    "host_name": "winlator.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=fAiPFsQxR78",
+    "name": "How to Run PC Games on Android with Winlator 2025 Guide",
+    "snippet": "... Winlator — the best Windows emulator for Android in 2025. ✓ No root required ✓ Works on low-end and high-end phones ✓ Easy setup with ...",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=dJhcA5QvTIo",
+    "name": "WINLATOR Bionic Emulator on Any Android Phone - YouTube",
+    "snippet": "WINLATOR Bionic v2.8.2 Vanilla on Any Android Phone - Best GPU Driver Settings & TEST! ➤ Adreno Turnip GPU Drivers, Wine Box64 and Proton ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=mZcRH1yF_do",
+    "name": "Run Window Games on Android with Winlator - YouTube",
+    "snippet": "Easily run window games on android with winlator and the help of box86/box64 ○○○ LINKS ○○○ https://github.com/brunodev85/winlator ...",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.osnews.com/story/138427/winlator-run-windows-application-on-android-using-wine-and-box86-box64",
+    "name": "run Windows application on Android using Wine and Box86/Box64",
+    "snippet": "Winlator is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64. being used to emulate an Intel ...",
+    "host_name": "www.osnews.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.xda-developers.com/winlator-guide",
+    "name": "A beginner's guide to emulating Windows games on a smartphone",
+    "snippet": "Winlator is a free x86_64 emulator that lets you run Windows games on your smartphone. While it requires a beefy smartphone with a powerful ...",
+    "host_name": "www.xda-developers.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

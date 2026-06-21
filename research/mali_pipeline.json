@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.reddit.com/r/Amd/comments/zitv7x/people_dont_understand_shader_cache_stuttering",
+    "name": "People don't understand shader cache stuttering and compilation",
+    "snippet": "A lot more people are starting to become aware of Unreal 4's DX12 shader compilation stutters, but they don't understand what they are, why they happen.",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://discussions.unity.com/t/prevent-shader-compilation-stutters-with-pso-tracing-in-unity-6/951031?page=4",
+    "name": "Prevent shader compilation stutters with PSO Tracing in Unity 6",
+    "snippet": "It is highly recommended to perform tracing in a development build, targeting the relevant graphics API. And maintain separate collections per target.",
+    "host_name": "discussions.unity.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=cw-AU2G_0mc",
+    "name": "Fix Shader Compilation Stutter & lag – 5 Mistakes Most Gamers Make",
+    "snippet": "... GPU driver update, old shader caches may no longer match the new driver. Potential Problems: • shader recompilation • first-time freezes ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "Jun 18, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.dovetailgames.com/threads/reduce-ue4-stutter-by-introducing-pso-pre-cache.85392",
+    "name": "Reduce Ue4 Stutter By Introducing Pso Pre-cache",
+    "snippet": "Incorporating PSO Pre-Caching in UE4 can significantly alleviate micro-stutter issues, providing a smoother gameplay experience.",
+    "host_name": "forums.dovetailgames.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://x.com/80Level/status/1887161763482705961",
+    "name": "Epic Games developers behind Unreal Engine 5's PSO precaching",
+    "snippet": "Epic Games developers behind Unreal Engine 5's PSO precaching system explained how it helps reduce shader stuttering and shared best practices for minimizing ...",
+    "host_name": "x.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.unrealengine.com/tech-blog/game-engines-and-shader-stuttering-unreal-engines-solution-to-the-problem",
+    "name": "Game engines and shader stuttering: Unreal Engine's solution to the",
+    "snippet": "Unreal Engine takes advantage of the driver cache by creating PSOs during loading and immediately discarding them when they finish compiling— ...",
+    "host_name": "www.unrealengine.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://box86.org/2023/05/box64-and-risc-v",
+    "name": "Box64 and RISC-V",
+    "snippet": "But before getting into the details of the Dynarec, let's start by introducing x86_64 and RISC-V (and ARM64) ISA (Instruction Set Architecture).",
+    "host_name": "box86.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/linux_gaming/comments/yxqe6q/new_release_of_box86_and_box64_with_dxvk_20",
+    "name": "New Release of Box86 and Box64, with DXVK 2.0 Support, Better",
+    "snippet": "Almost or even all games on Steam are x86 so running them on ARM Steam Deck would require constant translation between x86 and ARM architecture.",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/ptitseb/box64",
+    "name": "Box64 - Linux Userspace x86_64 Emulator with a twist  - GitHub",
+    "snippet": "With DynaRec for Arm, RISC-V and LoongArch platforms, Box64 achieves a speed boost 5-10x faster than the interpreter alone. For a deeper look at DynaRec ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://grokipedia.com/page/box64",
+    "name": "Box64 - Grokipedia",
+    "snippet": "Box64 employs a hybrid emulation approach centered on direct function call translation to execute x86_64 Linux binaries on non-x86_64 hosts. At its core, the ...",
+    "host_name": "grokipedia.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://archive.fosdem.org/2021/stands.fosdem.org/stands/box86/main",
+    "name": "box86 - About",
+    "snippet": "Because box86 works by directly translating function calls from x86 to host system, the host system (the one box86 is running on) needs to have 32-bit libraries ...",
+    "host_name": "archive.fosdem.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.clockworkpi.com/t/lets-play-x86-games/4848",
+    "name": "Let's play x86 games! - ClockworkPi Forum",
+    "snippet": "Hello everyone, For some time now, ptitSeb have been busy working on an x86 emulator for arm devices (mostly the open pandora and the ...",
+    "host_name": "forum.clockworkpi.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://baike.baidu.com/en/item/Box86/1692751",
+    "name": "Box86（A Linux user-space x86 emulator）_Baiduwiki",
+    "snippet": "Box86 integrates a dynamic recompiler (DynaRec) for the Advanced RISC Machines platform, which improves its performance by 5 to 10 times compared to using only ...",
+    "host_name": "baike.baidu.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://box86.org/2024/07/revisiting-the-dynarec",
+    "name": "Revisiting the dynarec - Box86 / Box64",
+    "snippet": "Note: this article will focus on the ARM version of the dynarec on box64, which is more complex and has full support for AVX2. Other ...",
+    "host_name": "box86.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

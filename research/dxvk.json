@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.reddit.com/r/linux_gaming/comments/1661e2j/clarifying_wined3d_dxvk_opengl_and_vulkan",
+    "name": "Clarifying wined3d, dxvk, opengl, and vulkan : r/linux_gaming - Reddit",
+    "snippet": "DXVK is DX9-11. The wine project has its own DX12 to Vulkan translation layer. Wine has full DX9->Vulkan translation. WineD3D now has a Vulkan ...",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/doitsujin/dxvk",
+    "name": "GitHub - doitsujin/dxvk: Vulkan-based implementation of D3D8, 9",
+    "snippet": "DXVK. A Vulkan-based translation layer for Direct3D 8/9/10/11 which allows running 3D applications on Linux using Wine. For the current status of the project ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2461019058",
+    "name": "DXVK (DirectX-over-Vulkan) - stability improvements & potential",
+    "snippet": "DXVK is a Vulkan-based graphics API translation layer for Direct3D 9/10/11 developed for running 3D applications on Linux using Wine.",
+    "host_name": "steamcommunity.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.winehq.org/viewtopic.php?t=40579",
+    "name": "Why doesn't Wine include DXVK by default? - WineHQ Forums",
+    "snippet": "The main reason Wine doesn't include DXVK by default is because DXVK depends on Vulkan support, which isn't universally available or stable ...",
+    "host_name": "forum.winehq.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=MaRNZ8r-4Gk",
+    "name": "How to set up DXVK in Wine on Linux - YouTube",
+    "snippet": "DXVK (also known as DirectX to Vulkan) is one of the tools included in Steam's Steam Play feature. It's a fantastic tool that can convert ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://linuxreviews.org/DXVK",
+    "name": "DXVK - LinuxReviews",
+    "snippet": "DXVK is a DirectX 9, 10 and 11 to Vulkan translation layer for Wine. It performs a lot better than Wine's built-in DX9-11 translayer and it has better ...",
+    "host_name": "linuxreviews.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pcper.com/2019/06/wine-focusing-on-wined3d-vulkan-back-end-vs-dxvk",
+    "name": "Wine Focusing on WineD3D Vulkan Back-end (vs DXVK)",
+    "snippet": "It looks like the Wine project are proceeding forward with their own WineD3D Vulkan back-end, rather than using the competing DXVK as seen in Valve's Proton ...",
+    "host_name": "pcper.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.gamersonlinux.com/forum/threads/wine-dxvk-the-future-with-vulkan.2449/page-2",
+    "name": "Wine DXVK - The Future with Vulkan | Page 2 - GamersOnLinux",
+    "snippet": "You can also install DXVK for per application. Just place the correct dll files into the folder where the game exe is and set them to native in winecfg.",
+    "host_name": "www.gamersonlinux.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

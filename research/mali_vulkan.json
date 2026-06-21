@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.reddit.com/r/vulkan/comments/y4ap9e/arm_mali_should_i_ignore_this_vulkan_warning",
+    "name": "[Arm Mali] Should i ignore this Vulkan warning? - Reddit",
+    "snippet": "The warning tells you that, if GPU sets up triangles according to the index buffer, there are still 3.12% of the vertex buffer left unused.",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.vulkan.org/samples/latest/samples/extensions/descriptor_indexing/README.html",
+    "name": "Descriptor indexing :: Vulkan Documentation Project",
+    "snippet": "Descriptor indexing is an extension which adds a lot of flexibility to how resources are accessed. The core functionality of this extension is that we can ...",
+    "host_name": "docs.vulkan.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.arm.com/community/arm-community-blogs/b/mobile-graphics-and-gaming-blog/posts/vulkan-descriptor-indexing",
+    "name": "Vulkan Descriptor Indexing for Mobile - Arm Developer",
+    "snippet": "To check what Android devices are available with 'Descriptor Indexing' check here. You can also directly view the Khronos Group/ Vulkan samples ...\nThe rationale here is that hardware is optimized for dynamically uniform (or subgroup uniform) indices, so there is often an internal loop ...",
+    "host_name": "developer.arm.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://gist.github.com/DethRaid/0171f3cfcce51950ee4ef96c64f59617",
+    "name": "Vulkan Descriptor Indexing.md - Gist - GitHub",
+    "snippet": "Most renderers need some way for shaders to access resources like textures, buffers, etc. For the Vulkan API, this way is the almighty descriptor set.\nDescriptor Indexing Guide. Note: This guide is written for Vulkan 1.2, where descriptor indexing is a core feature. If you're using an older version of Vulkan ...",
+    "host_name": "gist.github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.collabora.com/news-and-blog/news-and-events/reverse-engineering-the-mali-g78.html",
+    "name": "Reverse-engineering the Mali G78 - Collabora",
+    "snippet": "Mali G78 does bring changes beyond the instruction set. The data structures are changed to reduce Vulkan driver overhead. For example, the ...\nValhall is the fourth Arm® Mali™ architecture and the fifth Mali instruction set. It is implemented in the Arm® Mali™-G78, the most recently ...",
+    "host_name": "www.collabora.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://armkeil.blob.core.windows.net/developer/Arm%20Developer%20Community/PDF/Arm%20Mali%20GPU%20Best%20Practices.pdf",
+    "name": "[PDF] Arm Mali GPUs Best Practices Developer Guide",
+    "snippet": "In addition, with current drivers descriptor set pool allocations are not actually pooled so calling vkAllocateDescriptorSets() on a performance critical ...",
+    "host_name": "armkeil.blob.core.windows.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.khronos.org/blog/vk-ext-descriptor-buffer",
+    "name": "VK_EXT_descriptor_buffer - The Khronos Group",
+    "snippet": "We've just released an extension that I think will completely change how engines approach descriptors going forward.\nVulkan is designed for multi-threading, but using descriptor pools with multiple threads isn't possible without locks, so we're forced to ...",
+    "host_name": "www.khronos.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://vulkan-tutorial.com/Uniform_buffers/Descriptor_pool_and_sets",
+    "name": "Descriptor pool and sets - Vulkan Tutorial",
+    "snippet": "In this chapter we're going to create a descriptor set for each VkBuffer resource to bind it to the uniform buffer descriptor.",
+    "host_name": "vulkan-tutorial.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

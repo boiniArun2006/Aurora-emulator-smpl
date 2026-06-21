@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://github.com/doitsujin/dxvk/issues/2798",
+    "name": "Graphics Pipeline Library · Issue #2798 · doitsujin/dxvk - GitHub",
+    "snippet": "The Vulkan Graphics Pipeline Library, compiling those DirectX shader \"lego pieces\" during loading screens, for quick fast-linking later.",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/linux_gaming/comments/b6mw3z/eli5_why_opengl_and_vulkan_need_to_compile_their",
+    "name": "ELI5 why OpenGL and Vulkan need to compile their shaders but",
+    "snippet": "DXVK shader compilation stuttering happens on when using DXVK because DXVK doesn't know what shaders will be needed until they're called for.",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.guru3d.com/threads/dx9-dxvks-shader-compilation-seems-broken-in-rdna-4-gpus.459451/page-5",
+    "name": "(DX9) DXVK's Shader Compilation seems broken in RDNA 4 GPUs",
+    "snippet": "Vulkan driver in Adrenalin 26.3.1 still hasn't been fixed so it still doesn't work properly with dxvk when LLPC compiler is used.",
+    "host_name": "forums.guru3d.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=8YmRTsWWVT0",
+    "name": "DXVK Install Guide for Windows [Vulkan for DX9, DX10  - YouTube",
+    "snippet": "Use DXVK on Windows with our quick and easy video guide. DXVK is a Vulkan-based translation layer for Direct 3D 9, 10 and 11.\nis a Vulkan-based translation layer for Direct 3D 9, 10 and 11. Using DXVK ... DXVK Install Guide for Windows [Vulkan for DX9, DX10 and DX11 ...",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://steamcommunity.com/app/695330/discussions/0/3758852249518118303",
+    "name": "Try with DXVK for shader compiling :: SEASON - Steam Community",
+    "snippet": "2) You'll need to download the latest version of DXVK which is on version 2.1 from Github 3) Make sure you have the latest Vulkan runtimes ...",
+    "host_name": "steamcommunity.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/doitsujin/dxvk/wiki/Developer-guidelines",
+    "name": "Developer guidelines · doitsujin/dxvk Wiki - GitHub",
+    "snippet": "DXVK will start creating Vulkan pipeline libraries or complete Vulkan pipelines in the background. Compiling shaders \"on demand\", D3D11 drivers.",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

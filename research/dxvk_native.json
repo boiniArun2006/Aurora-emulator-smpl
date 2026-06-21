@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/1ht0719/vortek_native_driver_vs_turnip_on_snapdragon_8",
+    "name": "Vortek (native driver) vs turnip on Snapdragon 8+ gen 1, Winlator 9",
+    "snippet": "I didn't met any issues after 5 minutes of testing, it gives around 15-20% higher performance over turnip driver with the best combination.",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/doitsujin/dxvk/issues/4484",
+    "name": "Performance regression · Issue #4484 · doitsujin/dxvk - GitHub",
+    "snippet": "There is a noticeable decrease in performance in dxvk 2.5 and 2.5.1 compared to older versions. I have tried it in all the games I have, and while the ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=a26RE54JWSA",
+    "name": "Boost Your Android Gaming Performance by Up to 40% with Turnip",
+    "snippet": "... Comparison with the previous Revision 11 to showcase the significant ... Adreno 730 RAM - 8GB OS: Android 13 ROG UI #AndroidGaming ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.phoronix.com/news/Turnip-Geometry-Streams-DXVK",
+    "name": "Turnip Vulkan Driver Picks Up Geometry Streams To Support",
+    "snippet": "Turnip remains the unofficial, open-source Vulkan driver for Qualcomm as Freedreno is to OpenGL. The geometry streams support relies as well on ...",
+    "host_name": "www.phoronix.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pocket-gaming.org/2026/06/15/the-definitive-guide-to-android-turnip-drivers-hardware-compatibility-2026",
+    "name": "The Definitive Guide to Android Turnip Drivers & Hardware",
+    "snippet": "It relies almost exclusively on Turnip drivers, as DXVK requires stringent Vulkan compliance that official Adreno drivers simply cannot provide.",
+    "host_name": "pocket-gaming.org",
+    "rank": 4,
+    "date": "Jun 15, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=kmg91bke5DY",
+    "name": "Winlator 10.1 review: Vortek, Turnip, DXVK, DirectX11  - YouTube",
+    "snippet": "... Turnip 24.1.0 DXVK 1.10.3 Pulse audio Nvidia GeForce GTX 1070 Performance Aggressive Windows 10 Box 0.3.4 In-game settings: All 'Medium ...",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://av.tib.eu/media/70809",
+    "name": "turnip: Update on Open Source Vulkan Driver for Adreno GPUs",
+    "snippet": "You could now run AAA desktop games via FEX + Turnip, Adreno 7xx is now supported, Turnip is used by emulators on Android, and more! Series; Transcript ...",
+    "host_name": "av.tib.eu",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=0x3oEKPnmyM",
+    "name": "Latest Adreno GPU Drivers for Android (Turnip) - YouTube",
+    "snippet": "... DXVK Android,Vulkan drivers Android ... tweak,Android FPS test,Android benchmark,Android gaming review,Android performance test,Android ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

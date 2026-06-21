@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://docs.mesa3d.org/drivers/zink.html",
+    "name": "Zink — The Mesa 3D Graphics Library latest documentation",
+    "snippet": "The Zink driver is a Gallium driver that emits Vulkan API calls instead of targeting a specific GPU architecture. This can be used to get full desktop OpenGL ...",
+    "host_name": "docs.mesa3d.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/linux_gaming/comments/168ha8h/how_do_i_set_up_zink_and_mesa_for_an_amd_gpu",
+    "name": "How do i set up zink and mesa for an AMD GPU? : r/linux_gaming",
+    "snippet": "I am trying to set up zink to run goldsrc games better but i have not yet found a guide on it. So how do i set up zink and mesa on an amd gpu?",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.collabora.com/news-and-blog/blog/2018/10/31/introducing-zink-opengl-implementation-vulkan",
+    "name": "Introducing Zink, an OpenGL implementation on top of Vulkan",
+    "snippet": "Zink is a Mesa Gallium driver that leverages the existing OpenGL implementation in Mesa to provide hardware accelerated OpenGL when only a Vulkan driver is ...",
+    "host_name": "www.collabora.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.khronos.org/assets/uploads/developers/presentations/Vulkan-09-Zink-OpenGL-on-Vulkan-SIGGRAPH-Jul19.pdf",
+    "name": "[PDF] Zink: OpenGL on Vulkan - The Khronos Group",
+    "snippet": "Zink is a Gallium driver in Mesa, that output Vulkan commands - Includes a NIR to SPIR-V compiler - This means we can get a full OpenGL to Vulkan translation ...",
+    "host_name": "www.khronos.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.phoronix.com/news/Wine-MR-Zink-By-Default",
+    "name": "Proposed Wine Code Uses Zink For OpenGL-On-Vulkan By Default",
+    "snippet": "This would build Zink as a Windows Portable Executable (PE) for allowing OpenGL to go straight to the Vulkan API with the host Vulkan drivers.",
+    "host_name": "www.phoronix.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.imaginationtech.com/powervr-the-path-to-open-source-zink-and-opengl-es-support",
+    "name": "PowerVR: The Path to Open-Source Zink and OpenGL ES Support",
+    "snippet": "PowerVR's open-source Vulkan driver now supports Zink, enabling backward compatibility with OpenGL and OpenGL ES applications, expanding its ...",
+    "host_name": "blog.imaginationtech.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/alexvorxx/mesa-zink-11.06.22",
+    "name": "alexvorxx/mesa-zink-11.06.22 - GitHub",
+    "snippet": "It's recommended to use meson-0.61.5 or newer. It's recommended to use GCC-11 and G++-11 or newer. After that, you need to build from source and install the ...",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.mesa3d.org/drivers/nvk.html",
+    "name": "NVK — The Mesa 3D Graphics Library latest documentation",
+    "snippet": "NVK is a conformant Vulkan 1.4 implementation for all officially supported GPUs. OpenGL support through Zink:¶. Starting with Mesa 25.1, all Turing (RTX 2000 ...",
+    "host_name": "docs.mesa3d.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

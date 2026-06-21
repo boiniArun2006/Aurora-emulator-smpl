@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://docs.vulkan.org/samples/latest/samples/performance/texture_compression_basisu/README.html",
+    "name": "Using Basis Universal supercompressed GPU texture codec with",
+    "snippet": "This tutorial, along with the accompanying example code, demonstrates how to use Basis universal supercompressed GPU textures in a Vulkan application.",
+    "host_name": "docs.vulkan.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/binomialLLC/basis_universal",
+    "name": "BinomialLLC/basis_universal: Basis Universal GPU Texture Codec",
+    "snippet": "These file formats support rapid transcoding to virtually any compressed GPU texture format released over the past quarter century.",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/vulkan/comments/1giy2ym/basis_universal_transcoding_to_bc7_using_libktx",
+    "name": "Basis Universal transcoding to BC7 using libktx : 500ms for a 2k",
+    "snippet": "I implemented a small loader for KTX2/UASTC textures, transcoding times from 400 to 500ms to transcode the appropriate GPU compatible format on ...",
+    "host_name": "www.reddit.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://threejs.org/examples/jsm/libs/basis",
+    "name": "Basis Universal GPU Texture Compression - Three.js",
+    "snippet": "Basis Universal is a “supercompressed” GPU texture and texture video compression system that outputs a highly compressed intermediate file format (.basis)",
+    "host_name": "threejs.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://discussions.unity.com/t/ktx2-basis-textures/815541",
+    "name": "KTX2 & Basis Textures - Unity Discussions",
+    "snippet": ".basis textures can be used independently or inside of the new .ktx2 container format. The original .ktx format supported multiple GPU textures ...",
+    "host_name": "discussions.unity.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/crashinvaders/gdx-basis-universal",
+    "name": "crashinvaders/gdx-basis-universal: KTX2/Basis Universal  - GitHub",
+    "snippet": "The Basis transcoder is capable of transcoding a Basis texture to one of the dozen native GPU compressed formats and covers all the modern platforms that way.",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

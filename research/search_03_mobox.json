@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://github.com/olegos2/mobox",
+    "name": "olegos2/mobox",
+    "snippet": "To change wine locale, dxvk hud preset or Turnip settings, use System settings menu in mobox. Fallback resolution is used only when x11 ...\nMobox is a project designed to run windows x86 applications in Termux using Box64 and Wine. ... Turnip, Wine Mono and Gecko can be installed in ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ObgZjqqq_OY",
+    "name": "Custom patch/update your Mobox Wow64! Install Wine",
+    "snippet": "Custom patch/update your Mobox Wow64! Install Wine 9.14, Turnip and Box64! 8.4K views · 1 year ago. #winlator #box64_noroot #box64_root.",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "Jun 21, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=SfCKHWUwAr0",
+    "name": "How to install Mobox Emulator (BOX64 & WINE) - Termux",
+    "snippet": "In this video I show you how to install Windows programs (x86 and x64 bits) on your Android device thanks to Termux and MOBOX.",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "Jun 21, 2024",
+    "favicon": ""
+  },
+  {
+    "url": "https://ivonblog.com/en-us/posts/termux-mobox",
+    "name": "Play Windows games from Steam on an Android phone",
+    "snippet": "Mobox is an open source exe emulator that lets us play Windows games from Steam on Android phones. Specifically, what Steam games can Mobox play ...\nPlease switch to Winlator or another alternative. Mobox is an open source exe emulator that lets us play Windows games from Steam on Android ...",
+    "host_name": "ivonblog.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=0TpaszqByG4",
+    "name": "Install MOBOX PC Emulator on Any MediaTek/Exynos/Tensor",
+    "snippet": "MOBOX Windows Emulator on Android. credits: olegos2 minimum: Android 10 or higher Fix: Mesa VirGL Drivers for Mali GPU, Wine 3D 0:00 intro ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "Jun 21, 2024",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/1gbdkig/winlatormoboxetc_common_misconceptions_and",
+    "name": "Winlator/Mobox/etc, Common Misconceptions, and",
+    "snippet": "Mobox and Wine compatibility on Android ... From there it gets fed into WINE, translating x86 linux functions to x86 Windows functions.\nHow to install Box64 on Android. Mobox features and capabilities. Mobox emulator download options. Mobox and Wine compatibility on Android.",
+    "host_name": "www.reddit.com",
+    "rank": 5,
+    "date": "Jun 21, 2025",
+    "favicon": ""
+  }
+]

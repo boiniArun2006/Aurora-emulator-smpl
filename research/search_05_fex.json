@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://ostechnix.com/fex-emu-run-x86-and-x86-64-apps-on-arm64-linux-devices",
+    "name": "FEX-Emu: Run x86 and x86-64 Apps on ARM64 Linux Devices",
+    "snippet": "FEX includes a comprehensive system call translation layer. This layer handles differences between the emulated operating system and the host ...",
+    "host_name": "ostechnix.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fex-emu.com",
+    "name": "FEX-Emu – A fast linux usermode x86 and x86-64 emulator",
+    "snippet": "FEX allows you to run x86 applications on ARM64 Linux devices, similar to qemu-user and box64. It offers broad compatibility with both 32-bit and 64-bit ...",
+    "host_name": "fex-emu.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/FEX-Emu/FEX",
+    "name": "FEX-Emu/FEX: A fast usermode x86 and x86-64 emulator for Arm64",
+    "snippet": "FEX allows you to run x86 applications on ARM64 Linux devices, similar to qemu-user and box64. It offers broad compatibility with both 32-bit and 64-bit ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=WZBL06opOK4",
+    "name": "LIS25 116 Games on ARM64 Introduction to FEX EMU a  - YouTube",
+    "snippet": "... techniques that impact performance, like * ... LIS25 116 Games on ARM64 Introduction to FEX EMU a fast usermode x86 64 emulator.",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.murtpoiss.ee/fex-emu-run-x86-applications-on-arm64-linux-devices",
+    "name": "FEX-emu – Run x86 applications on ARM64 Linux devices - MurtPoiss",
+    "snippet": "1. **Instruction Translation:** When you launch an x86 application with FEX, it intercepts the x86 machine code. 2. **JIT Compilation:** The JIT ...",
+    "host_name": "www.murtpoiss.ee",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/emulation/comments/p03323/fexemu_a_x8664_x86_emulator_for_aarch64_getting",
+    "name": "FEX-Emu, a x86-64 & x86 emulator for AArch64, getting  - Reddit",
+    "snippet": "It translates both 32-bit and 64-bit applications inside of a 64-bit AArch64 application. It also supports a slower x86-64 host facing JIT.",
+    "host_name": "www.reddit.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

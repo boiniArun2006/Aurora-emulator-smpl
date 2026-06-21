@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://github.com/ptitSeb/box86/issues/459",
+    "name": "Make a 64 bit versions · Issue #459 · ptitSeb/box86 - GitHub",
+    "snippet": "You need to have an armv7l toolchain for cross-compiling Box86 on an aarch64 system, which makes it more difficult for many users and increases ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2605.08419v2",
+    "name": "Deterministic Fully-Static Whole-Binary Translation without Heuristics",
+    "snippet": "We present Elevator, the first binary translator capable of statically translating entire x86-64 binary executables to AArch64 without using ...",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://grokipedia.com/page/box64",
+    "name": "Box64 - Grokipedia",
+    "snippet": "Box64 employs a hybrid emulation approach centered on direct function call translation to execute x86_64 Linux binaries on non-x86_64 hosts. At its core, the ...",
+    "host_name": "grokipedia.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3711875.3729163",
+    "name": "ARMing x86 Games: Accelerating Binary Translation Using Software",
+    "snippet": "Box64 [25] improves performance through dynamic trans- lation but still faces translation overhead issues. Apple's Rosetta. 2 [3] optimizes translation using ...",
+    "host_name": "dl.acm.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/linux/comments/omphyq/box64_box86_more_than_80_of_native_speed_when",
+    "name": "Box64 & Box86: more than 80% of native speed when emulating a",
+    "snippet": "I've made some benchmark with both box86 and box64 using OpenArena on ARM Platform. You can find all the detail in that article here.",
+    "host_name": "www.reddit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://box86.org/2022/03/box86-box64-vs-qemu-vs-fex-vs-rosetta2",
+    "name": "Box86/Box64 vs QEMU vs FEX (vs Rosetta2)",
+    "snippet": "I decided to compare the performances of the OpenSource Linux Userspace Emulator that allows you to run x86/x86_64 apps on ARM linux.",
+    "host_name": "box86.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

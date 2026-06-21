@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.reddit.com/r/winlator/comments/1npt29v/why_does_it_nothing_work_on_my_device_mali_gpu",
+    "name": "Why does it nothing work on my device. Mali GPU with",
+    "snippet": "direct3D test always gives a black screen then disappears as most games\n\nGPU: Mali G52 MC\nLook, I think the problem lies in a few points: 1st - I think that Winlator 10.1 is not as optimized for Mali GPUs. I would recommend using ...",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "Oct 24, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=5Y8xMECrA_g",
+    "name": "Winlator on Android Mali GPU Phone – Drivers Fixed &",
+    "snippet": "In today's video I'll show you how to fix the graphical issues on Molly GPUs or any other non-Adreno devices while using the latest Winder build version.\nWinlator on Android Mali GPU Phone – Drivers Fixed & Best Settings! Having graphical issues on your Mali GPU while using Winlator?",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "Jun 26, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=k80uhRslsjs",
+    "name": "Winlator 10.1 on Android Mali GPU Test – Drivers Fixed &",
+    "snippet": "Winlator v10.1 on Android Mali GPU Phone TEST – DX11 Drivers Fixed & Best Settings! In this video, I'm testing the Winlator 10.1 update on a ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "Jul 26, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/GunaCharanTeja/WinlatorMali",
+    "name": "Winlator Mali",
+    "snippet": "If you experience performance issues, try changing the Box86/Box64 preset in Container Settings → Advanced Tab. For applications that use .NET Framework, try ...",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=sBtNOupudVU",
+    "name": "*NEW* Winlator Frost Mali - Setup & Settings / Windows",
+    "snippet": "A brand new version of wind later Frost which is specially released for unsupported Snapdragon processors and Mali GPU Android devices.",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "Jun 21, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=GFDz-MmEGB8",
+    "name": "🔥 WINLATOR ANDROID V10 FINAL - SETUP/MALI GPU",
+    "snippet": "WINLATOR ANDROID V10 FINAL - SETUP/MALI GPU SUPPORT/GAMEPLAY | BEST WINDOWS EMULATOR Related Queries: • Windows Emulator For Android ...",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "Jun 21, 2025",
+    "favicon": ""
+  }
+]

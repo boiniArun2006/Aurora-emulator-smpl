@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.reddit.com/r/linux_gaming/comments/2e71s6/wine_ppa_patched_for_gallium_nined3d9_state",
+    "name": "Wine PPA patched for Gallium Nine/D3D9 State Tracker - Reddit",
+    "snippet": "Then you need to: Install Oibaf's Mesa PPA which now has the D3D9 State Tracker patch. Get a patched Wine thanks to u/Thermionix wine-1.7 ...",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://archive.fosdem.org/2015/schedule/event/d3d9/attachments/slides/722/export/events/attachments/d3d9/slides/722/GalliumNineStatus.pdf",
+    "name": "[PDF] Native D3D9 on Mesa Gallium Nine : the status",
+    "snippet": "Gallium Nine is: Mesa only. No proprietary drivers support ! Gallium only. Poor intel support ! It is composed of: Gallium state tracker. Wine d3d9 ...",
+    "host_name": "archive.fosdem.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.phoronix.com/forums/forum/linux-graphics-x-org-drivers/opengl-vulkan-mesa-gallium3d/1488240-mesa-s-gallium3d-direct3d-9-nine-state-tracker-to-be-retired",
+    "name": "Mesa's Gallium3D Direct3D 9 \"Nine\" State Tracker To Be Retired",
+    "snippet": "It's crazy that Gallium Nine is already a decade old for providing a Direct3D 9 (D3D9) state tracker implementation for Gallium3D hardware drivers.",
+    "host_name": "www.phoronix.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://lists.freedesktop.org/archives/mesa-dev/2013-July/041900.html",
+    "name": "[Mesa-dev] Direct3D 9 state tracker - Freedesktop.org",
+    "snippet": "... D3D9, and all the features required from the pipe drivers are well tested via OpenGL - there are no motivating applications using Direct3D ...",
+    "host_name": "lists.freedesktop.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://wiki.ixit.cz/d3d9",
+    "name": "d3d9 [iXit Group]",
+    "snippet": "We build our technology a top of the Gallium framework which is part of the Mesa-3D library. It allows us to expose Direct3D 9 support! Faster ...",
+    "host_name": "wiki.ixit.cz",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://linuxreviews.org/Gallium_Nine",
+    "name": "Gallium Nine - LinuxReviews",
+    "snippet": "Gallium Nine cuts that down to Direct3D 9 ▸ Mesa's Gallium Hardware State Tracker ▸ GPU Hardware. While Gallium Nine is the faster option for Direct3D 9, it isn ...",
+    "host_name": "linuxreviews.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

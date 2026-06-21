@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/1eryl9m/can_someone_explain_to_me_why_mali_gpus_are_so",
+    "name": "Can someone explain to me why Mali GPUs are so slow with",
+    "snippet": "Turnip drivers are drivers reverse engineered over the years for Adreno GPUs on Snapdragons. So it's not that Snapdragons run emulators better, ...\nAdreno vs Mali GPU comparison for emulation ... 1 - Current Mali GPUs have drivers that are as mature or decent as Adreno (Snapdragon) GPUs.",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/nihui/mesa-turnip-android-driver",
+    "name": "nihui/mesa-turnip-android-driver - GitHub",
+    "snippet": "Better performance than the system blobs; Can be used directly in your application; All vulkan extensions implemented are enabled; Support Android 8.0 or later ...\nHot-swap android vulkan driver at runtime; Full support for Adreno 6xx/7xx series; Better performance than the system blobs; Can be used directly in your ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=0x3oEKPnmyM",
+    "name": "Latest Adreno GPU Drivers for Android (Turnip) - YouTube",
+    "snippet": "In this video, I cover the latest Adreno Turnip GPU drivers for Android, how to download them, and how to use them for better gaming and ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://grokipedia.com/page/Open-source_GPU_drivers_for_Adreno_and_Mali",
+    "name": "Open-source GPU drivers for Adreno and Mali - Grokipedia",
+    "snippet": "In Android emulation and gaming applications such as GameHub, Turnip can be selected for Adreno-based devices to enhance Vulkan performance. However, on ...\n... Turnip Vulkan drivers tailored for Adreno GPUs on Android. A notable release ... drivers like Turnip are not available or supported for Mali GPUs.",
+    "host_name": "grokipedia.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pocket-gaming.org/2026/02/13/level-up-your-android-emulation-the-adreno-740-turnip-driver-guide",
+    "name": "Level Up Your Android Emulation: The Adreno 740 Turnip Driver",
+    "snippet": "Turnip drivers aren't perfect for every game. Turnip allows your GPU to work harder. Make sure your “High Performance Mode” is on in your ...\nLaunch your emulator and tap the Settings gear. Look for GPU Driver Manager (sometimes under “System” or “Graphics”). Tap Install or the “+” ...",
+    "host_name": "pocket-gaming.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/azahar-emu/azahar/discussions/1575",
+    "name": "Exploring Improved Mali/Tensor Graphics Driver Paths for Android",
+    "snippet": "Turnip (Mesa Vulkan) is Adreno-specific and not portable to Mali, and that fully replacing vendor GPU drivers on stock Android is not feasible.\nI'm aware that Turnip (Mesa Vulkan) is Adreno-specific and not portable to Mali, and that fully replacing vendor GPU drivers on stock Android is not feasible.",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.esper.io/blog/android-dessert-bites-14-gpu-driver-updates-3819534",
+    "name": "Why Updating Mali and Adreno GPU Drivers is Tricky on Android",
+    "snippet": "using Turnip fixes emulation issues otherwise seen with the Adreno 660 GPU driver, but using it does degrade performance compared to the vendor ...\nUpdating your graphics drivers can bring better performance and improved compatibility with new games, so there's no real reason not to update them.",
+    "host_name": "www.esper.io",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://xdaforums.com/t/tested-freedreno-turnip-mesa-vulkan-drivers-in-emulation-on-poco-f3.4401031",
+    "name": "Tested Freedreno Turnip Mesa Vulkan drivers in emulation on Poco",
+    "snippet": "Freedreno Turnip Mesa drivers have loss -10-20% of frame rate in this with 43fps in 5X resolution -4fps from stock so around -18% performance.\nAdreno drivers OpenGL v530 possible to update OpenGL v604 or OpenGL v611 which comes with massive boost +10%-15% Vulkan performance. Ancient OS ...",
+    "host_name": "xdaforums.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

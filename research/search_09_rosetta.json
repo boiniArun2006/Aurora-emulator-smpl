@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment",
+    "name": "About the Rosetta translation environment - Apple Developer",
+    "snippet": "Rosetta is a translation process that allows users to run Mac apps that contain x86_64 instructions on Apple silicon. Rosetta was designed to ease the ...",
+    "host_name": "developer.apple.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.infoq.com/news/2020/11/rosetta-2-translation",
+    "name": "How x86 to arm64 Translation Works in Rosetta 2 - InfoQ",
+    "snippet": "Thanks to Rosetta 2, most x86 programs will be able to execute after an initial translation step. Apple started to use binary translation ...",
+    "host_name": "www.infoq.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dougallj.wordpress.com/2022/11/09/why-is-rosetta-2-fast",
+    "name": "Why is Rosetta 2 fast? | dougallj - WordPress.com",
+    "snippet": "Ahead-of-time translation. Rosetta 2 translates the entire text segment of the binary from x86 to ARM up-front. · Usually one-to-one translation.",
+    "host_name": "dougallj.wordpress.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=25107521",
+    "name": "Rosetta 2 is an AOT translation, not emulation. https://developer",
+    "snippet": "Rosetta 2 is AoT translation as if that means it's fundamentally better/faster than other emulation technologies is just falling to marketing.",
+    "host_name": "news.ycombinator.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/osx/comments/urprbp/how_does_rosetta_2_actually_work",
+    "name": "How does Rosetta 2 actually work? : r/osx - Reddit",
+    "snippet": "Apple's docs say that Rosetta 2 works by translating x86 code into ARM64 code when an application starts up and then running the resulting ARM code natively.",
+    "host_name": "www.reddit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://apple.stackexchange.com/questions/406787/manually-run-rosetta-2-on-x86-binary",
+    "name": "Manually Run Rosetta 2 on x86 Binary - Apple StackExchange",
+    "snippet": "I wrote a very simple C program and my goal is to build an x86-only binary and then run that binary on an Apple Silicon Mac and have Rosetta 2 ...",
+    "host_name": "apple.stackexchange.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

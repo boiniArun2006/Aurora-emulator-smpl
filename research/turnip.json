@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/nihui/mesa-turnip-android-driver",
+    "name": "nihui/mesa-turnip-android-driver - GitHub",
+    "snippet": "Hot-swap android vulkan driver at runtime; Full support for Adreno 6xx/7xx series; Better performance than the system blobs; Can be used directly in your ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/sp8x88/aethersx2_running_on_freedreno_turnip_mesa_vulkan",
+    "name": "AetherSX2 running on Freedreno Turnip Mesa Vulkan Driver with",
+    "snippet": "Yes and no Mesa3D is making Freedreno Turnip Vulkan Driver for years and reverse engineering Qualcomm Adreno drivers .",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=kb-itpF2xEE",
+    "name": "How to Install a Custom MESA Turnip Driver in Citron Emulator on",
+    "snippet": "Citron is a new Nintendo Switch emulator and I can show you how to install an Android compatible Adreno driver. ~~~~~ Hi!",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.mesa3d.org/drivers/freedreno.html",
+    "name": "Freedreno — The Mesa 3D Graphics Library latest documentation",
+    "snippet": "Turnip¶. Turnip is a Vulkan 1.3 driver for Adreno 6xx GPUs. The current set of specific chip versions supported can be found in src/freedreno/common ...",
+    "host_name": "docs.mesa3d.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pocket-gaming.org/2026/02/13/level-up-your-android-emulation-the-adreno-740-turnip-driver-guide",
+    "name": "Level Up Your Android Emulation: The Adreno 740 Turnip Driver",
+    "snippet": "The Turnip Driver: An open-source project designed specifically to handle complex Vulkan instructions. It fixes graphical glitches and prevents ...",
+    "host_name": "pocket-gaming.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.dolphin-emu.org/Thread-tested-freedreno-turnip-mesa-vulkan-drivers-on-dolphin",
+    "name": "Tested Freedreno Turnip Mesa Vulkan drivers on Dolphin",
+    "snippet": "Freedreno is the open-source, reverse-engineered project implementing a fully open-source driver for Qualcomm's Adreno graphics hardware.",
+    "host_name": "forums.dolphin-emu.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=d-pF3qGsbLg",
+    "name": "Where to Download Custom MESA Turnip Drivers for Android in",
+    "snippet": "New Turnip Driver Sources for Android If you've been following the Emulation on Android subreddit lately, you've probably seen new drivers ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/1442778705795443/posts/29394917963488142",
+    "name": "Stable Adreno OPENGL v746 + MESA VULKAN v24.2 Graphics",
+    "snippet": "Stable Adreno OPENGL v746 + MESA VULKAN v24.2 graphics driver update magisk module for our old Snapdragon 855. Can now run heavy graphics dependent apps.",
+    "host_name": "www.facebook.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.phoronix.com/forums/forum/linux-graphics-x-org-drivers/opengl-vulkan-mesa-gallium3d/1086158-turnip-an-open-source-vulkan-driver-for-qualcomm-adreno-hardware-now-in-mesa",
+    "name": "TURNIP: An Open-Source Vulkan Driver For Qualcomm Adreno",
+    "snippet": "TURNIP is the newest Mesa-based Vulkan driver in development that provides open-source support for this graphics/compute API on Qualcomm Adreno hardware.",
+    "host_name": "www.phoronix.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/K11MCH1/AdrenoToolsDrivers/releases",
+    "name": "Releases · K11MCH1/AdrenoToolsDrivers - GitHub",
+    "snippet": "Based on latest mesa main source v26.0.0-devel. Vulkan 1.4.330. Base commit: aa865300. Compatible with Winlator Bionic through Adrenotools ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

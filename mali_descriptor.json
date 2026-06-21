@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://community.khronos.org/t/bindless-textures/103941",
+    "name": "Bindless Textures? - Vulkan - Khronos Forums",
+    "snippet": "The real equivalent of bindless textures is extension named VK_EXT_descriptor_indexing. Vulkan specification guarantees that you may put even 500.000 textures ...",
+    "host_name": "community.khronos.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/vulkan/comments/15r6hza/bindless_textures_cause_artifacts_on_integrated",
+    "name": "Bindless textures cause artifacts on integrated GPU : r/vulkan - Reddit",
+    "snippet": "When resizing the window, the artifacts move to another location but stay on the same side of the texture.",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://chunkstories.xyz/blog/a-note-on-descriptor-indexing",
+    "name": "A note on Descriptor Indexing - Chunk Stories",
+    "snippet": "The EXT_descriptor_indexing extension gives devices a “non-uniform dynamic descriptor indexing” feature you can use in combination with unsized descriptors.",
+    "host_name": "chunkstories.xyz",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.arm.com/community/arm-community-blogs/b/mobile-graphics-and-gaming-blog/posts/vulkan-descriptor-indexing",
+    "name": "Vulkan Descriptor Indexing for Mobile - Arm Developer",
+    "snippet": "VK_EXT_descriptor_indexing features. This extension is a large one and landed in Vulkan 1.2 as a core feature. To enable bindless algorithms, ...",
+    "host_name": "developer.arm.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.developer.nvidia.com/t/driver-bug-bindless-image2d-in-std140-buffer/287957",
+    "name": "Driver bug, bindless image2D in std140-buffer - OpenGL",
+    "snippet": "Driver issue with bindless textures pixels are flickering on the window ... Crash with bindless textures inside the nvoglv64.dll driver · OpenGL.",
+    "host_name": "forums.developer.nvidia.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/WilliamKarolDiCioccio/saturn/issues/2",
+    "name": "Mali GPU Driver Crash on Xiaomi Mi 11 Lite on surface recreation #2",
+    "snippet": "The application crashes with a SIGSEGV when vkCreateGraphicsPipelines() is invoked during the surface/swapchain/pipeline recreation process on ...",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/gasim/implementing-bindless-design-in-vulkan-34no",
+    "name": "Managing bindless descriptors in Vulkan - DEV Community",
+    "snippet": "In this post, we will discover how to setup bindless descriptors for uniform, storage buffers, and textures. Additionally, we will also set ...",
+    "host_name": "dev.to",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://jorenjoestar.github.io/post/vulkan_bindless_texture",
+    "name": "Vulkan Pills 1: Bindless Textures | Gabriel's Virtual Tavern",
+    "snippet": "Here is a very short article on how to use Vulkan bindless features. All the relevant c++ code is into gpu_device_vulkan.cpp and command_buffer.",
+    "host_name": "jorenjoestar.github.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

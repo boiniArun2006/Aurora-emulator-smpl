@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/1gy57uv/whats_the_problem_with_mali_gpus",
+    "name": "What's the problem with Mali GPU's? : r/EmulationOnAndroid - Reddit",
+    "snippet": "The issue is that unlike the adreno drivers Mesa's mali implementation does not currently support either the kernel driver that most android devices use.",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.phoronix.com/news/TURNIP-Hardware-Binning",
+    "name": "The Open-Source Qualcomm \"TURNIP\" Vulkan Driver Adds",
+    "snippet": "The TURNIP Mesa Vulkan driver providing support for recent Qualcomm Adreno graphics processors and akin to the Freedreno Gallium3D driver ...",
+    "host_name": "www.phoronix.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/lfdevs/mesa-for-android-container",
+    "name": "lfdevs/mesa-for-android-container: A Mesa build for  - GitHub",
+    "snippet": "The Freedreno and Turnip driver in Mesa 26.0.0 and later versions supports Adreno 8xx GPU. Mesa drivers compiled in ARM64 Docker containers across multiple ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.mesa3d.org/drivers/freedreno.html",
+    "name": "Freedreno — The Mesa 3D Graphics Library latest documentation",
+    "snippet": "Turnip is a Vulkan 1.3 driver for Adreno 6xx GPUs. The current set of specific chip versions supported can be found in src/freedreno/common/freedreno_devices.py ...",
+    "host_name": "docs.mesa3d.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=731NEG97Gdw",
+    "name": "Introduction to Qualcomm Adreno & Mesa Turnip Custom GPU Drivers",
+    "snippet": "... , the Mesa project offers what is commonly referred to as the Turnip driver. This is an open source GPU driver project that provides Vulkan ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.dolphin-emu.org/Thread-tested-freedreno-turnip-mesa-vulkan-drivers-on-dolphin",
+    "name": "Tested Freedreno Turnip Mesa Vulkan drivers on Dolphin",
+    "snippet": "Freedreno is the open-source, reverse-engineered project implementing a fully open-source driver for Qualcomm's Adreno graphics hardware.\nPerformance is almost 1:1 , Qualcomm drivers jump up to 48-50fps but have massive drops after that to 40-42fps. Turnip has stable 43-45fps in 3K ...",
+    "host_name": "forums.dolphin-emu.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

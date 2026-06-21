@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://forum.odroid.com/viewtopic.php?t=28476",
+    "name": "Exagear Desktop for ODROID boards (Powerful x86 emulation)",
+    "snippet": "Sadly, ExaGear has been EOLed. :( We're really sorry to announce our business decision about discontinuing our services and products. You can ...",
+    "host_name": "forum.odroid.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/rf6xe1/after_exagear_was_taken_off_the_market_why_has_no",
+    "name": "After exagear was taken off the market, why has no developers",
+    "snippet": "It seems once Exagear was taken off the market, no one even tried to make any close to it. Akiro did make some modding which is fantastic to get exagear to run ...",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=2lfb6x1RBjo",
+    "name": "Install ExaGear Android Emulator | Run Windows on Android Phone",
+    "snippet": "... exagear desktop empty, download exagear windows emulator android, dragon ball mugen exagear, download exagear windows emulator apk+obb mediafıre",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/XHYN-PH/exagear-302",
+    "name": "Simple Modification of ExaGear: Windows Emulator (^^) · GitHub",
+    "snippet": "ExaGear is a virtualization solution that provides an x86 emulation environment. S AND IT'S BEEN CEASED/CLOSED SINCE FEB OF 2019. It only supports x86 or 32- ...",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.raspberrypi.com/viewtopic.php?t=233989",
+    "name": "Eltechs ExaGear Desktop will be discontinued on Feb.28'th 2019",
+    "snippet": "Eltechs ExaGear Desktop (an Intel x86 virtual machine) will just be discontinued on feb.28'th 2019... run x86 applications",
+    "host_name": "forums.raspberrypi.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://exagear-windows-emulator.en.softonic.com/android",
+    "name": "ExaGear Windows Emulator for Android - Download",
+    "snippet": "This is a Windows emulator that allows you to run your Windows OS on your mobile device. With this, you can access your PC apps on a smaller screen.",
+    "host_name": "exagear-windows-emulator.en.softonic.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=wWuITjBcH4M",
+    "name": "How to set up Windows Emulation on Android with ExaGear",
+    "snippet": "... Exagear, the Windows emulator on Android. Please note that this is just tutorial is just to get you started, as Exagear will potentially ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.exagear.wiki/index.php?title=About_ExaGear_products&mobileaction=toggle_view_desktop",
+    "name": "About ExaGear products - EmuGear Wiki",
+    "snippet": "Presumably in October 2020, Eltechs sold all the source codes of ExaGear to Huawei, and the project was relaunched under the brand ExaGear ...",
+    "host_name": "www.exagear.wiki",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

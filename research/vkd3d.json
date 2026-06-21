@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.reddit.com/r/linux_gaming/comments/154vmuv/can_translation_apis_dxvkvkd3dprotonetc_extend",
+    "name": "Can translation APIs (DXVK/vkd3d/Proton/etc.) extend the  - Reddit",
+    "snippet": "Vulkan support isn't binary. There are a ton of optional extensions and features in Vulkan and if a GPU doesn't support D3D12, that's usually ...",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.developer.nvidia.com/t/prime-setup-usage-of-vk-khr-present-id-extension-causes-presentation-failure-on-525-85-05-driver-with-vkd3d-proton-master/240536",
+    "name": "PRIME setup- Usage of VK_KHR_present_id extension causes",
+    "snippet": "Using VKD3D_DISABLE_EXTENSIONS=VK_KHR_present_id environment variable makes the DX12 games renders correctly with vkd3d-proton.",
+    "host_name": "forums.developer.nvidia.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/HansKristian-Work/vkd3d-proton",
+    "name": "HansKristian-Work/vkd3d-proton - GitHub",
+    "snippet": "vkd3d-proton is a fork of VKD3D, which aims to implement the full Direct3D 12 API on top of Vulkan. The project serves as the development effort for Direct3D 12 ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.gamingonlinux.com/2022/10/direct3d-12-to-vulkan-translator-vkd3d-proton-version-27-out-now",
+    "name": "Direct3D 12 to Vulkan translator VKD3D-Proton version 2.7 out now",
+    "snippet": "VKD3D-Proton, the translation tech used in Steam Play Proton to translate Direct3D 12 to Vulkan for Steam Deck / Linux version 2.7 is out now.",
+    "host_name": "www.gamingonlinux.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.phoronix.com/news/VKD3D-Proton-3.0.1",
+    "name": "VKD3D-Proton 3.0.1 Brings More Improvements For Direct3D 12 On",
+    "snippet": "... VKD3D-Proton 3.0.1 for Direct3D 12 over the Vulkan API ... Vulkan 1.4.351 Brings Six New Extensions, Including A Ray-Tracing Improvement.",
+    "host_name": "www.phoronix.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=40592647",
+    "name": "Vulkan has nothing to do with the Steam Deck being able to run PC",
+    "snippet": "Vulkan has nothing to do with the Steam Deck being able to run PC games other than being the API that DXVK and VKD3D-proton translate DirectX calls into.",
+    "host_name": "news.ycombinator.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bbs.archlinux.org/viewtopic.php?id=296170",
+    "name": "[SOLVED] Lutris giving DXVK and VKD3D error / Newbie Corner",
+    "snippet": "When i start lutris, and i want to configure the settings of wine, i get this error in both \"Enable DXVK\" and \"Enable VKD3D\" : Error Vulkan is not installed.",
+    "host_name": "bbs.archlinux.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=BeKXjUV7abc",
+    "name": "How to use Vulkan API Driver (DXVK, VKD3D) on STEAM DECK",
+    "snippet": "How to use Vulkan API Driver (DXVK, VKD3D) on STEAM DECK? What is Vulkan API? All answers here #SteamDeck, #SteamDeckMGT This gameplay is on ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

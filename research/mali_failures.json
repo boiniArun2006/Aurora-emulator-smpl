@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/1gy57uv/whats_the_problem_with_mali_gpus",
+    "name": "What's the problem with Mali GPU's? : r/EmulationOnAndroid - Reddit",
+    "snippet": "Mali gpu don't have custom Vulkan drivers due to ARM pickiness. Mali gpu drivers are not directly compatible with DXVK, which severely limits ...\nMali gpu don't have custom Vulkan drivers due to ARM pickiness about their intellectual property. Mali gpu drivers are not directly compatible ...",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=5Y8xMECrA_g",
+    "name": "Winlator on Android Mali GPU Phone – Drivers Fixed & Best Settings!",
+    "snippet": "Winlator on Android Mali GPU Phone – Drivers Fixed & Best Settings! Having graphical issues on your Mali GPU while using Winlator?",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/805512964670693/posts/973783981176923",
+    "name": "Can anyone test dxvk on mali-g51 gpu and share their experience?",
+    "snippet": "I have Mali-G51 gpu and it support vulkan. I cant play in DXVK Because its not adreno 600. this is an emulator compatibility problem. Dxvk is ...\n\"Vulkan is a framework that is designed to basically allow Windows ... With R9 280x and AMDGPU(for vulkan support) I had a lot of crashes.",
+    "host_name": "www.facebook.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/RenderHeads/UnityPlugin-AVProVideo/issues/2440",
+    "name": "[Android] Android 10 Vulkan crash on Mali G52 GPUs during video",
+    "snippet": "We are experiencing a native crash on Android devices using Mali GPUs when AVPro Video runs with Vulkan enabled.\nWe are experiencing a native crash on Android devices using Mali GPUs when AVPro Video runs with Vulkan enabled. The crash happens inside the ...",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.unrealengine.com/t/artifacts-and-crashes-on-some-android-gpus-and-versions-when-vulkan-is-enabled/2536208",
+    "name": "Artifacts and crashes on some Android GPUs and versions when",
+    "snippet": "For Mali GPUs, Vulkan isn't targeted below the G72. Mali driver version that resolves this issue. Vulkan is limited to driver version 525 and ...\nOn Mali-G77 with Android 11 (Samsung S20) there is a crash when rendering our “camouflage” material with Vulkan enabled, we didn't investigate ...",
+    "host_name": "forums.unrealengine.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.chegg.com/homework-help/questions-and-answers/android-emulator-closed-internal-error-gpu-found-vendor-id-1002-device-id-0x6665-checking--q85159943",
+    "name": "Solved Android Emulator closed because of an internal error - Chegg",
+    "snippet": "1. Make sure your GPU drivers are up to date 2. Erase and re-download the emulator (SANDROID_SOK_ROOT emulator 3. Try software rendering:\nWhen the use of the Vulkan graphics API, the Android emulator could occasionally quit or terminate. The main reasons for this will be because ...",
+    "host_name": "www.chegg.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=k80uhRslsjs",
+    "name": "Winlator 10.1 on Android Mali GPU Test – Drivers Fixed & Best",
+    "snippet": "Winlator 10.1 on Android Mali GPU Test – Drivers Fixed & Best Settings! 55K views · 11 months ago. #gta5android #winlatoremulator #windows ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/45121828/android-studio-suddenly-got-gpu-driver-issue-when-running-emulator",
+    "name": "Android Studio, Suddenly got GPU Driver Issue when running",
+    "snippet": "Some users have experienced emulator stability issues with this driver version. The solution is to, if possible, switch to using an external ...",
+    "host_name": "stackoverflow.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://community.rive.app/c/bug-reports/unity-android-vulkan-rendering-crash-on-startup",
+    "name": "Unity: Android Vulkan Rendering Crash On Startup - Rive Community",
+    "snippet": "Hi, We are currently experiencing crashing on a specific set of Androids with the mali based GPU. The error is specific to the initialization of Vulkan ...\nWe are currently experiencing crashing on a specific set of Androids with the mali based GPU. The error is specific to the initialization of Vulkan itself",
+    "host_name": "community.rive.app",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://community.arm.com/support-forums/f/compilers-and-libraries-forum/57189/potential-mali-gpu-driver-bug-on-xiaomi-redmi-note-11-pro",
+    "name": "Potential Mali GPU Driver bug on Xiaomi Redmi Note 11 Pro",
+    "snippet": "The issue involves a SIGSEGV crash within libGLES_mali.so during the vkCreateGraphicsPipelines() call on a specific device. I've documented the ...",
+    "host_name": "community.arm.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

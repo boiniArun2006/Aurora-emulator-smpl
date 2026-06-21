@@ -1,0 +1,56 @@
+[
+  {
+    "url": "http://www.cs.columbia.edu/~nieh/teaching/e6118_s00/papers/p79-patterson.pdf",
+    "name": "[PDF] Informed Prefetching and Caching",
+    "snippet": "In this paper, we present aggressive, proactive mechanisms that tailor file system resource management to the needs of l/O-inten- sive applications.",
+    "host_name": "www.cs.columbia.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/10.1145/224056.224064",
+    "name": "Informed prefetching and caching - ACM Digital Library",
+    "snippet": "A study of integrated prefetching and caching strategies. Proc. of the Joint Int. Conf. on Measurement & Modeling of Computer Systems (SiGMETRICS), Ottawa, ...",
+    "host_name": "dl.acm.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scirp.org/journal/paperinformation?paperid=56313",
+    "name": "Predictive Prefetching for Parallel Hybrid Storage Systems - SCIRP",
+    "snippet": "In this study, we show that a predictive prefetching across multiple storage levels is an efficient technique for placing near future needed data blocks in the ...",
+    "host_name": "www.scirp.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.pdl.cmu.edu/PDL-FTP/TIP/PDIS.pdf",
+    "name": "[PDF] Exposing I/O Concurrency with Informed Prefetching",
+    "snippet": "Informed prefetching provides a simple mechanism for. I/O-intensive, cache-ineffective applications to efficiently exploit highly-parallel I/O subsystems such ...",
+    "host_name": "www.pdl.cmu.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=1018&context=compsci_fac",
+    "name": "[PDF] Adaptive Prefetching for Device-Independent File I/O - PDXScholar",
+    "snippet": "We use prefetching to provide file access with low latency and by having data available in memory in the buffer cache when requested by the application. To be ...",
+    "host_name": "pdxscholar.library.pdx.edu",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://apps.dtic.mil/sti/tr/pdf/ADA339202.pdf",
+    "name": "[PDF] Informed Prefetching and Caching - DTIC",
+    "snippet": "Table 2.1 compares the performance predicted for a variety of operating system file cache sizes in 1985 [Ousterhout85] with that observed in 1991 [Baker91] ...",
+    "host_name": "apps.dtic.mil",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

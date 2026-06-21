@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.cs.cmu.edu/~garland/Papers/quadrics.pdf",
+    "name": "[PDF] Surface Simplification Using Quadric Error Metrics",
+    "snippet": "The algorithm uses iterative contractions of vertex pairs to simplify models and maintains surface error approximations using quadric matrices. By contracting ...",
+    "host_name": "www.cs.cmu.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/2417323_Surface_Simplification_Using_Quadric_Error_Metrics",
+    "name": "(PDF) Surface Simplification Using Quadric Error Metrics",
+    "snippet": "The algorithm uses iterative contractions of vertex pairs to simplify models and maintains surface error approximations using quadric matrices.",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cg.informatik.uni-freiburg.de/intern/seminar/meshSimplification_2004_Talton.pdf",
+    "name": "[PDF] A Short Survey of Mesh Simplification Algorithms",
+    "snippet": "Garland, M. and Heckbert, P. S. 1997. Surface simplification using quadric error metrics. In. Proceedings of the 24th annual conference on Computer graphics and ...",
+    "host_name": "cg.informatik.uni-freiburg.de",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hhoppe.com/newqem.pdf",
+    "name": "[PDF] New quadric metric for simplifying meshes with appearance attributes",
+    "snippet": "This paper presents a new technique for efficiently and accurately simplifying meshes with attribute data. Among mesh simplification metrics, the quadric error ...",
+    "host_name": "hhoppe.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://summergeometry.org/sgi2023/tag/mesh-simplification",
+    "name": "Mesh simplification – SGI 2023",
+    "snippet": "The mesh simplification algorithm studied was introduced in Garland and Heckbert 1997 [6] and is quite straightforward: it consists in collapsing various edges ...",
+    "host_name": "summergeometry.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://doc.cgal.org/latest/Surface_mesh_simplification/index.html",
+    "name": "CGAL 6.2 - Triangulated Surface Mesh Simplification: User Manual",
+    "snippet": "Roughly speaking, the method consists of iteratively replacing an edge with a single vertex, removing 2 triangles per collapse. Edges are collapsed according to ...",
+    "host_name": "doc.cgal.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

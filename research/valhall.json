@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/1gy57uv/whats_the_problem_with_mali_gpus",
+    "name": "What's the problem with Mali GPU's? : r/EmulationOnAndroid - Reddit",
+    "snippet": "Mali gpu don't have custom Vulkan drivers due to ARM pickiness about their intellectual property. In the case of \"Windows\" emulation, Mali gpu ...",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.mesa3d.org/drivers/panfrost.html",
+    "name": "Panfrost — The Mesa 3D Graphics Library latest documentation",
+    "snippet": "Mali-G57 and Mali-G610, PanVK, the Vulkan implementation in the Panfrost driver stack, is currently conformant on Mali-G610, but non-conformant on other GPUs. ...",
+    "host_name": "docs.mesa3d.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=vW0AyI70taM",
+    "name": "Testing Vulkan on the Mali-G610 Rockchip RK3588 Mesa 25.0",
+    "snippet": "Update: You can build a new Armbian image with the Edge branch: https://youtu.be/cRsWpP9dohQ Here is the information for Armbian.",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.collabora.com/news-and-blog/news-and-events/panvk-reaches-vulkan-12-conformance-on-mali-g610.html",
+    "name": "PanVK reaches Vulkan 1.2 conformance on Mali-G610 - Collabora",
+    "snippet": "Vulkan 1.1 conformance for PanVK on G610 GPUs, support for the missing features for Vulkan 1.3 and 1.4,",
+    "host_name": "www.collabora.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.odroid.com/viewtopic.php?t=48978",
+    "name": "Request for Vulkan support. - ODROID Forum",
+    "snippet": "mali g610. there are still issues with the libMali and a hybrid approach is still required. PS3 emulator, The Mali driver is hard coded for 4K ...",
+    "host_name": "forum.odroid.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.arm.com/documentation/ka005482/1-0",
+    "name": "Can Mali GPU DDKs support Vulkan SC and OpenGL ES SC?",
+    "snippet": "Answer. Mali GPU DDKs do not support Vulkan SC or OpenGL ES SC directly, but using CoreAVI driver can enable the SC support for Mali GPU DDKs.",
+    "host_name": "developer.arm.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/Joshua-Riek/ubuntu-rockchip/issues/888",
+    "name": "Joshua-Riek/ubuntu-rockchip - New Mali G610 Vulkan Blob - GitHub",
+    "snippet": "New Mali G610 Vulkan Blob. Issue body actions share a maybe-official wayland vulkan driver. But vulkan won't work in x11 desktop. It's really ...",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.phoronix.com/news/Mali-G57-Conformant-GLES-3.1",
+    "name": "Linux 5.20 + Mesa 22.2 To Allow Conformant Mali G57 OpenGL ES",
+    "snippet": "Mali G57 GPU has conformant OpenGL. The Mali G57 is a 1st Gen Valhall GPU launched in 2019. Valhall is also ultimately capable of OpenGL ES 3.2 ...",
+    "host_name": "www.phoronix.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

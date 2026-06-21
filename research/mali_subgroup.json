@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.khronos.org/blog/vulkan-subgroup-tutorial",
+    "name": "Vulkan Subgroup Tutorial - The Khronos Group",
+    "snippet": "Subgroups are an important new feature in Vulkan 1.1 because they enable highly-efficient sharing and manipulation of data between multiple tasks running in ...",
+    "host_name": "www.khronos.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.vulkan.org/guide/latest/subgroups.html",
+    "name": "Subgroups :: Vulkan Documentation Project",
+    "snippet": "This extension allows subgroup operations to use 8-bit integer, 16-bit integer, 64-bit integer, 16-bit floating-point, and vectors of these types in group ...",
+    "host_name": "docs.vulkan.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=fP1Af0u097o",
+    "name": "Vulkan Subgroup Functionality - YouTube",
+    "snippet": "Vulkan 1.1 subgroups explained, , partitioned subgroups, NVIDIA implementation details, comparison with HLSL SM 6.0 Wave Ops. Slides: ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/71019902/can-not-use-vulkan-subgroup-operations-in-android-studio",
+    "name": "Can not use Vulkan Subgroup operations in Android Studio",
+    "snippet": "I'm writing a Vulkan compute shader in Android studio and launching it on Android phone. The problem I'm experiencing is next - I can not use any subgroup ...",
+    "host_name": "stackoverflow.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=8MyqQLu_tW0",
+    "name": "Vulkan Subgroup Functionality - YouTube",
+    "snippet": "Vulkan 1.1 subgroups explained, , partitioned subgroups, NVIDIA implementation details, comparison with HLSL SM 6.0 Wave Ops. Daniel Koch, ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/vulkan/comments/1ai2juw/subgroup_size_generic_code",
+    "name": "Subgroup size generic code : r/vulkan - Reddit",
+    "snippet": "Typically I write my subgroup code as if I'm using Nvidia GPUs, out of habit from working in CUDA, so I often assume my subgroup size is 32.",
+    "host_name": "www.reddit.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://raphlinus.github.io/gpu/2020/04/30/prefix-sum.html",
+    "name": "Prefix sum on Vulkan | Raph Levien's blog",
+    "snippet": "The Vulkan subgroup operations aren't defined this way, and instead implicitly operate on active threads (invocations). Supporting this ...",
+    "host_name": "raphlinus.github.io",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.download.nvidia.com/video/gputechconf/gtc/2019/presentation/s9909-nvidia-vulkan-features-update.pdf",
+    "name": "[PDF] NVIDIA VULKAN UPDATE",
+    "snippet": "Invocations within a subgroup can synchronize and share data with each other efficiently. For NVIDIA 32 invocations form one subgroup (“warp”).",
+    "host_name": "developer.download.nvidia.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.arm.com/products/silicon-ip-multimedia/immortalis-gpu/immortalis-g720",
+    "name": "Arm Immortalis-G720",
+    "snippet": "Arm's latest flagship GPU is based on the new 5th Gen GPU architecture, bringing the next generation of visual computing to mobile.",
+    "host_name": "www.arm.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=tgTwiWKSMpk",
+    "name": "Arm Immortalis-G720 - Detailed Look - YouTube",
+    "snippet": "Arm has announced a new mobile GPU, the Immortalis-G720, based on its new 5th generation of GPU architecture. The new GPU includes Ray Tracing ...",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.arm.com/community/arm-community-blogs/b/announcements/posts/arm-gpus-built-on-new-fifth-gen-architecture",
+    "name": "Arm GPUs built on new 5th Generation GPU architecture to redefine",
+    "snippet": "Immortalis-G720 offers support for 10 cores or more and the option of using optimized physical IP to accelerate system-on-chip (SoC) designs.",
+    "host_name": "developer.arm.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.notebookcheck.net/ARM-Immortalis-G720-MP12-Benchmarks-and-Specs.805594.0.html",
+    "name": "ARM Immortalis-G720 MP12 - Benchmarks and Specs",
+    "snippet": "It uses 12 of the 16 possible cores and is based on the latest 5th generation GPU architecture (successor to valhall). According to ARM, it offers 15 percent ...",
+    "host_name": "www.notebookcheck.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.xda-developers.com/arm-immortalis-g720-announced",
+    "name": "Arm's new Immortalis G720 should yield big gains in performance",
+    "snippet": "Immortalis must have a ray-tracing unit, whereas the Mali G720 can but is not required to. Immortalis G720 can have up to 16 cores. to 15% more ...\nThe Immortalis G720 being the best GPU from Arm yet. Like in their cores, the GPUs here are particularly being touted for their efficiency improvements.",
+    "host_name": "www.xda-developers.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.gadgetbytenepal.com/arm-immortalis-g720-announced",
+    "name": "Arm Immortalis G720 Announced | Overview, Features, Advantages",
+    "snippet": "Immortalis G720 can be configured with up to 16 cores with 10 being the minimum, while the Mali G720 can have between 6 and 9 cores.\nARM Immortalis G720 GPU Announced 5th Gen Microarchitecture DVS Ray Tracing ... The more budget-friendly Mali G620 has more limited cores support of only 5.",
+    "host_name": "www.gadgetbytenepal.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.design-reuse.com/blog/55606-arm-gpus-built-on-new-5th-generation-gpu-architecture-to-redefine-visual-computing",
+    "name": "Arm GPUs built on new 5th Generation GPU architecture to redefine",
+    "snippet": "On ray tracing, an Immortalis-G715 based SoC provides 67 and 52 percent better performance. Arm Immortalis-G720 GPU. This is our alongside new ...\nAfter four generations of GPUs on the 4th Generation Valhall architecture, the latest Arm GPUs are built on a brand-new 5th Generation GPU ...",
+    "host_name": "www.design-reuse.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.armchina.com/armip?dataId=14&istitle=%E5%A4%9A%E5%AA%92%E4%BD%93",
+    "name": "多媒体-Arm IP-安谋科技",
+    "snippet": "Immortalis-G720 Arm's latest flagship GPU is based on the new 5th Gen GPU architecture, Hardware-based ray tracing support on mobile.\nImproved ray tracing performance. Immortalis-G720. Arm's latest flagship GPU is based on the new 5th Gen GPU architecture, bringing the next generation of ...",
+    "host_name": "www.armchina.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

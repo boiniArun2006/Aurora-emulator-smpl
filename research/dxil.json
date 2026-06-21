@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.reddit.com/r/linux_gaming/comments/1fktw86/microsoft_is_moving_to_spirv_as_ir_for_upcoming",
+    "name": "Microsoft is moving to SPIR-V as IR for upcoming shader model 7",
+    "snippet": "This will make shader compilation faster on DirectX12 games on Linux as there won't be the need to convert DXIL to SPIR-V first. This will ...",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/microsoft/DirectXShaderCompiler/issues/4969",
+    "name": "Support SPIRV -> DXIL · Issue #4969 - GitHub",
+    "snippet": "Translating DXIL to SPIR-V is not just a matter of mapping one instructions to another. It would require modifying the control flow, ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://devblogs.microsoft.com/directx/directx-adopting-spir-v",
+    "name": "DirectX Adopting SPIR-V as the Interchange Format of the Future",
+    "snippet": "Once Shader Model 7 is released, DirectX 12 will accept shaders compiled to SPIR-V™. The HLSL team is committed to open development processes ...",
+    "host_name": "devblogs.microsoft.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=39325758",
+    "name": "I guess the less troublesome would be something like HLSL/GLSL",
+    "snippet": "In vkd3d (from wine), I think you have a DXIL->SPIR-V translater (much more robust than any high level shading language converter since it is a ...",
+    "host_name": "news.ycombinator.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.phoronix.com/news/DirectX-Adopting-SPIR-V",
+    "name": "Wow! Microsoft DirectX Adopting SPIR-V Moving Forward - Phoronix",
+    "snippet": "Once Shader Model 7 is released, DirectX 12 will accept shaders compiled to SPIR-V™. The HLSL team is committed to open development processes ...",
+    "host_name": "www.phoronix.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://themaister.net/blog/2021/09/05/my-personal-hell-of-translating-dxil-to-spir-v-part-1",
+    "name": "My personal hell of translating DXIL to SPIR-V – part 1",
+    "snippet": "In this blog series I'd like to go through the DXIL format, explain the problems I've had to solve and hopefully serve as an introduction to basic compiler ...",
+    "host_name": "themaister.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

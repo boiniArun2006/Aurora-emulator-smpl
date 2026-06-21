@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.reddit.com/r/linux/comments/204h9t/valve_posted_their_direct3d_opengl_translation",
+    "name": "Valve posted their Direct3D -> OpenGL translation layer to GitHub",
+    "snippet": "Summary: Valve is writting their HLSL shaders in a way it's possible to automate their translation to GLSL shaders.",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/valvesoftware/togl",
+    "name": "ValveSoftware/ToGL: Direct3D to OpenGL abstraction layer - GitHub",
+    "snippet": "Direct3D -> OpenGL translation layer. Taken directly from the DOTA2 source tree; supports: Limited subset of Direct3D 9.0c; Bytecode-level HLSL -> GLSL ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.phoronix.com/news/MTYyNjM",
+    "name": "Valve Open-Sources Their Direct3D To OpenGL Translation Layer",
+    "snippet": "This translation layer targets just a subset of Direct3D 9.0c and also supports translating HLSL byte-code to OpenGL's GL Shading Language (GLSL) ...",
+    "host_name": "www.phoronix.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://richg42.blogspot.com/2014/03/togl-d3d9-opengl-layer-source-release.html",
+    "name": "togl D3D9->OpenGL layer source release on github",
+    "snippet": "This is a raw dump of the togl layer right from DoTA2: https://github.com/ValveSoftware/ToGL. This is old news by now; I think the press ...",
+    "host_name": "richg42.blogspot.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.techpowerup.com/forums/threads/valve-runs-a-direct3d-to-opengl-translation-layer.198814",
+    "name": "Valve Runs a Direct3D to OpenGL Translation Layer - TechPowerUp",
+    "snippet": "Simply put, it's a Direct3D to OpenGL translation layer, which works to reduce duplication of effort in developing games for multiple platforms ...",
+    "host_name": "www.techpowerup.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.extremetech.com/gaming/178276-valve-open-sources-its-directx-to-opengl-translation-software-here-come-the-steamos-and-linux-games",
+    "name": "Valve open-sources its DirectX to OpenGL translation software",
+    "snippet": "Valve has made Dota 2's Direct3D to OpenGL translation layer open source. This is the piece of code that allows Valve to take a standard DirectX ...",
+    "host_name": "www.extremetech.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

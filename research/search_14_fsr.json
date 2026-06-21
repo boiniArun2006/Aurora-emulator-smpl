@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://gpuopen.com/fidelityfx-super-resolution-3",
+    "name": "AMD FidelityFX™ Super Resolution 3 (FSR 3)",
+    "snippet": "AMD FSR 3 technology uses a combination of super resolution temporal upscaling technology and frame generation to deliver a massive increase in framerates in ...",
+    "host_name": "gpuopen.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.amd.com/en/products/graphics/technologies/fidelityfx/super-resolution.html",
+    "name": "AMD FSR™ Technologies",
+    "snippet": "Advanced frame generation interpolation technology when used with AMD FidelityFX Super Resolution (FSR) 3 inserts 1 frame between existing ones which can ...",
+    "host_name": "www.amd.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/Android/comments/1q5gbyu/fsr_technology_on_android_what_do_you_think",
+    "name": "FSR technology on android, what do you think? - Reddit",
+    "snippet": "It has both upscaling and frame generation functions. Only officially supported by certain Arm Adreno GPUs. At least the upscaler is, in fact, ...",
+    "host_name": "www.reddit.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/godotengine/godot-proposals/issues/2809",
+    "name": "Implement AMD FidelityFX Super Resolution (FSR) in the Vulkan",
+    "snippet": "FidelityFX Super Resolution is a spatial upscaling technique, which generates a “super resolution” image from every input frame.",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=G4BI1-bgg0E",
+    "name": "Is AMD Sleeping? Where's Vulkan FSR4? Where's FSR  - YouTube",
+    "snippet": "Use my codes for ENEBA and get further discounts while helping the channel!! https://ene.ba/AncientGameplays ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.techpowerup.com/forums/threads/amd-announces-fsr-3-1-improves-super-resolution-quality-allows-frame-generation-to-work-with-other-upscaling-tech.320638",
+    "name": "AMD Announces FSR 3.1, Improves Super Resolution Quality",
+    "snippet": "No worries, use DLSS 2 for the upscaling, and FSR 3.1 for the frame generation. AMD is also clumping its FidelityFX family of technologies into ...",
+    "host_name": "www.techpowerup.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

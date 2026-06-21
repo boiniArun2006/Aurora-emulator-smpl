@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.reddit.com/r/emulation/comments/2lk7ew/somebody_mind_explaining_to_me_what_retroarch_is",
+    "name": "Somebody mind explaining to me what Retroarch is and  - Reddit",
+    "snippet": "In other words, libretro is a uniform interface for the emulators, it exposes the functions of the emulator as a \"core\". RetroArch is the ...",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.retroarch.com/?page=cores",
+    "name": "RetroArch Cores - Library of Emulators, Game Engines and Media",
+    "snippet": "RetroArch is a modular program that runs emulators and games within its framework as if they were 'plugins'. These plugins are called 'cores'.",
+    "host_name": "www.retroarch.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.libretro.com/t/are-there-emulators-other-than-retroarch-and-openemu-that-use-libretro-cores/6231",
+    "name": "Are there emulators other than RetroArch and OpenEmu that use",
+    "snippet": "I'm curious if there are Emulators OR Front-Ends other than RetroArch and OpenEmul that use LibRetro cores? The idea that RetroArch cores ...",
+    "host_name": "forums.libretro.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.odroid.com/viewtopic.php?t=5994",
+    "name": "[GUIDE] Building libretro's ( retroarch emulation cores ) - ODROID",
+    "snippet": "Hello all, I don't know if it is actually possible but I am looking for a way to properly compile and run the stock libretro MAME core for ...",
+    "host_name": "forum.odroid.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://clownacy.wordpress.com/2025/08/24/how-i-added-a-new-libretro-core-to-retroarch",
+    "name": "How I Added a New Libretro Core to RetroArch - Clownacy's Corner",
+    "snippet": "Add a YAML script to my core's Git repository, so that libretro's infrastructure can build the core automatically. Add some graphical assets and ...",
+    "host_name": "clownacy.wordpress.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://emulatorjs.org/docs4devs/buildingraw",
+    "name": "Building RetroArch Cores - EmulatorJS",
+    "snippet": "It is highly recommended to use this script to compile the cores. It will compile every core and package them for you. LibRetro \"Cores\". Clone the repository.",
+    "host_name": "emulatorjs.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

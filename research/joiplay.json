@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://joiplay.net",
+    "name": "JoiPlay",
+    "snippet": "Play your favorite indie games on Android. A modular game interpreter and launcher for RPG Maker, Ren'Py, TyranoBuilder, Construct 2&3, Godot(GDScript), ...",
+    "host_name": "joiplay.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/JoiPlay/comments/1fvwpmj/is_it_better_to_play_renpyrpgm_games_on_joiplay",
+    "name": "Is it better to play Ren'py/RPGM games on Joiplay or the Android port",
+    "snippet": "Depends on the game: I have had joiplay issues with certain games due to RAM limits on certain devices, whereas the android port is running ...",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://renpy-plugin-for-joiplay.en.uptodown.com/android/download",
+    "name": "Download Ren'Py Plugin for JoiPlay 8.1.3_7.6.3_001-patreon for",
+    "snippet": "1- Tap Download to get the APK file. 2- Locate it in your notification bar or in the Downloads folder, then tap to begin installation.",
+    "host_name": "renpy-plugin-for-joiplay.en.uptodown.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=z2tLSQ69ACM",
+    "name": "JoiPlay Setup Guide! All your Favorite PC Fangames on Android!",
+    "snippet": "In this video, we setup JoiPlay on Android to play all the best PC Fangames. Buy the Odin 2 Portal here: https://joeysrh.link/IGG_ODIN2P Buy ...",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://renpy-plugin-for-joiplay.en.softonic.com/android",
+    "name": "Download - Ren'Py Plugin for JoiPlay APK for Android",
+    "snippet": "With this free utility add-on, developers and gamers can try out files created using the Ren'Py visual novel game engine on the base app.",
+    "host_name": "renpy-plugin-for-joiplay.en.softonic.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://chromewebstore.google.com/detail/joiplay-emulator/bhpabiljmlhoiljklebplljdmheogmkb?hl=en",
+    "name": "Joiplay [Emulator] - Chrome Web Store",
+    "snippet": "JoiPlay Chrome Extension brings a seamless and enhanced experience for running RPG Maker, Ren'Py, and other popular visual novels directly on your browser.",
+    "host_name": "chromewebstore.google.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://itch.io/t/3569182/play-on-android-with-joiplay",
+    "name": "Play on Android with JoiPlay - Small On Top community - itch.io",
+    "snippet": "Step 1: Download the the JoiPlay app (.apk file) · Step 2: Download the RPG plugin (needed to play 'small on top') · Step 3: Install the . · Step 4 ...",
+    "host_name": "itch.io",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://joiplay.org",
+    "name": "Joiplay v1.20.590 - Download #1 RPG Maker Emulator {Apk}",
+    "snippet": "JoiPlay is an emulator and game interpreter for RPG maker games. It allows you to run RPG maker games based on XP, VX, VX Ace, and RenPy on android smartphones.",
+    "host_name": "joiplay.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

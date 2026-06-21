@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://docs.mesa3d.org/drivers/panfrost.html",
+    "name": "Panfrost — The Mesa 3D Graphics Library latest documentation",
+    "snippet": "PanVK, the Vulkan implementation in the Panfrost driver stack, is currently conformant on Mali-G610, but non-conformant on other GPUs.",
+    "host_name": "docs.mesa3d.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.facebook.com/Phoronix/posts/arm-preparing-support-for-latest-mali-gpus-with-panthor-open-source-driver/1309898300656988",
+    "name": "Arm Preparing Support For Latest Mali GPUs With Panthor Open",
+    "snippet": "Public Collabora has made further progress on #Panfrost open-source Mali #GPU driver and they can now run GNOME 3 and some 3D games on #Arm ...",
+    "host_name": "www.facebook.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.khronos.org/news/tags/tag/opengles",
+    "name": "Opengles tagged News - The Khronos Group",
+    "snippet": "Panfrost driver combination are now officially conformant for OpenGL ES 3.1 on Mali-G610. Panfrost is an open source driver for Arm Mali GPUs",
+    "host_name": "www.khronos.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/linux_gaming/comments/1e3uvyu/panfrost_opengl_es_31_conformance_achieved_on",
+    "name": "Panfrost: OpenGL ES 3.1 conformance achieved on Mali-G610 GPU",
+    "snippet": "The fully open source Panthor kernel driver and Mesa Panfrost driver combination has achieved official conformance for OpenGL ES 3.1 on the Mali-G610.",
+    "host_name": "www.reddit.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dietpi.com/forum/t/mali-and-opencl/24564",
+    "name": "Mali and OpenCL - General Discussion - DietPi Community Forum",
+    "snippet": "Hello dido, you can go two possible routes: The proprietary ARM OpenCL blobs, or the open-source path via Panfrost + Mesa OpenCL.",
+    "host_name": "dietpi.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.collabora.com/news-and-blog/news-and-events/a-helping-arm-for-panfrost.html",
+    "name": "A helping Arm for Panfrost - Collabora",
+    "snippet": "Panfrost means that you'll have conformant and performant out-of-the-box open-source support for any system you buy with an Arm Mali SoC.",
+    "host_name": "www.collabora.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://community.mnt.re/t/has-anyone-tried-genuine-mali-drivers/3576",
+    "name": "Has anyone tried genuine Mali drivers? - MNT Community",
+    "snippet": "Meanwhile the open source mesa/panvk is already at Vulkan 1.3… ARM is actively supporting the panthor/panvk driver, see Release the panthor!",
+    "host_name": "community.mnt.re",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.phoronix.com/news/Arm-Mali-G1-Pro-Mesa-26.2",
+    "name": "Arm Mali G1 Pro Now Working With Open-Source PanVK & Panfrost",
+    "snippet": "The PanVK Vulkan driver and Panfrost Gallium3D driver for Arm Mali graphics hardware is now supporting the latest \"v14\" hardware GPU ...",
+    "host_name": "www.phoronix.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

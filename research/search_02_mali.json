@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/1gy57uv/whats_the_problem_with_mali_gpus",
+    "name": "What's the problem with Mali GPU's? : r/EmulationOnAndroid - Reddit",
+    "snippet": "In the case of \"Windows\" emulation, Mali gpu drivers are not directly compatible with DXVK, which severely limits the games that can be emulated ...",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/805512964670693/posts/973783981176923",
+    "name": "Can anyone test dxvk on mali-g51 gpu and share their experience?",
+    "snippet": "Can anyone test this out and share their experience. I have Mali-G51 gpu and it support vulkan but I could only play lite pixel games using dxvk ...",
+    "host_name": "www.facebook.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/doitsujin/dxvk/issues/4619",
+    "name": "[d3d9] Skeletal Mesh animations are not working properly  - GitHub",
+    "snippet": "I'd ask you to test a more recent version but the Vulkan driver is probably missing features we require. GPU drivers on Android are notoriously ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.arm.com/documentation/ka005482/1-0",
+    "name": "Can Mali GPU DDKs support Vulkan SC and OpenGL ES SC?",
+    "snippet": "Answer. Mali GPU DDKs do not support Vulkan SC or OpenGL ES SC directly, but using CoreAVI driver can enable the SC support for Mali GPU DDKs.",
+    "host_name": "developer.arm.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.android.com/studio/run/emulator-troubleshooting",
+    "name": "Troubleshoot known issues with Android Emulator | Android Studio",
+    "snippet": "This document lists known issues, workarounds, and troubleshooting tips for common problems encountered with the Android Emulator, covering general issues, ...",
+    "host_name": "developer.android.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.unrealengine.com/t/artifacts-and-crashes-on-some-android-gpus-and-versions-when-vulkan-is-enabled/2536208",
+    "name": "Artifacts and crashes on some Android GPUs and versions when",
+    "snippet": "On Mali-G52/G72 (Xiaomi Redmi 10, Samsung Galaxy S9) with Vulkan enabled there is a 100% crash when MSAA is enabled, regardless of the Android ...",
+    "host_name": "forums.unrealengine.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=GpD4PoZlA9k",
+    "name": "Mali enters the game - Driver wrapper for Mali - YouTube",
+    "snippet": "Mali had a meme nerf and now may be a viable GPU to emulate on your favorite emulators ... vulkan-wrapper/releases/tag/v0.0.5r5 ⬇️ Get ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.odroid.com/viewtopic.php?t=41617",
+    "name": "Question about the Vulkan capable emulators - ODROID Forum",
+    "snippet": "We are trying to add the Vulkan API in to the Mali-G31 GPU driver by helping from Rockchip people. But we don't know well which emulators(or ...",
+    "host_name": "forum.odroid.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

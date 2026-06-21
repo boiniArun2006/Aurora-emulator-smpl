@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.youtube.com/watch?v=5Yzydt057HY",
+    "name": "PSP Android Emulator PPSSPP Setup Guide 2026 - YouTube",
+    "snippet": "Support my Patreon https://www.patreon.com/c/ShandellJames Buy me a coffee https://buymeacoffee.com/shandelljames Download PPSSPP from the ...",
+    "host_name": "www.youtube.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/programming/comments/2tmcty/an_overview_of_the_dolphin_emulator_development",
+    "name": "An overview of the Dolphin Emulator development infrastructure",
+    "snippet": "Dolphin is amazing and much better than any other emulator, but to diminish the efforts of those behind the N64 and PS2 emulators because you ...",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.copetti.org/writings/consoles/playstation-portable",
+    "name": "PlayStation Portable (PSP) Architecture | A Practical Analysis",
+    "snippet": "This article is dedicated to anyone who wants to understand, straight to the point, how the PSP operates.",
+    "host_name": "www.copetti.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://acagroup.be/en/blog/the-benefits-of-a-modular-architecture-in-mobile-development",
+    "name": "The Benefits of a Modular Architecture in Mobile Development",
+    "snippet": "A modular architecture results in a more efficient, reliable, and scalable mobile development process, mitigating risks associated with monolithic ...",
+    "host_name": "acagroup.be",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/native-mobile-bits/modular-android-app-architecture-build-to-scale-d6f402cbd93a",
+    "name": "Modular Android App Architecture (Build to scale) | by Sachin Rajput",
+    "snippet": "In our basic modular application we will be having two Modules and in each module, we will have some network operations for that we will make one central ...",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/894658577271076/posts/25685228434454080",
+    "name": "Gotta love emulators. I'm using PPSSPP. - Facebook",
+    "snippet": "The PPSSPP project was created by Henrik Rydgård, one of the co-founders of the Dolphin emulator. ○♧ Features and Development PPSSPP ...",
+    "host_name": "www.facebook.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

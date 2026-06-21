@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/brunodev85/winlator",
+    "name": "brunodev85/winlator: Android application for running  - GitHub",
+    "snippet": "Winlator is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64. Installation. Download and install the APK ( ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/star-emu/star",
+    "name": "star-emu/star: star - An application that lets you run Windows",
+    "snippet": "Star has been discontinued on the 18th June 2026. star is an application that lets you play PC games on Android. This project is built via GitHub Actions only. ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://winlator.org",
+    "name": "Winlator - Android app",
+    "snippet": "Winlator is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64. Download the latest version",
+    "host_name": "winlator.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/StevenMXZ/Winlator-Ludashi",
+    "name": "StevenMXZ/Winlator-Ludashi: Android application for  - GitHub",
+    "snippet": "Winlator is an Android application that lets you run Windows (x86_64) applications with Wine. It supports standard x86_64 containers using Box86/Box64, as well ...",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/1sr0res/box64_v042_update_released_for_winlator_emulator",
+    "name": "Box64 v0.4.2 Update Released for Winlator Emulator and  - Reddit",
+    "snippet": "What's Changed. This version add lots on unconnected new things, like a PPC64LE backend, Vulkan overlay support or more Dynarec finetuning!",
+    "host_name": "www.reddit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/Stredohori/Winlator-CMOD",
+    "name": "GitHub - Stredohori/Winlator-CMOD: Android application for running",
+    "snippet": "Winlator is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64. Installation. Download and ...",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/topics/winlator?o=desc&s=updated",
+    "name": "winlator · GitHub Topics",
+    "snippet": "Lightweight portable game save sync tool for Windows, CrossOver, Wine, and GameHub. Automates save redirection with process polling for GTA V and other ...",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/winebox64/winlator/releases",
+    "name": "Releases · winebox64/winlator - GitHub",
+    "snippet": "Winlator 10.2 (beta) Now smaller, lighter, and faster! Save storage with optimized app packaged in 130MB and installed in just 1.3GB. WINE ( ...",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=euGPhmuxV0U",
+    "name": "BOX64, DXVK, VKD3D, Bionic, Frost, Afeimod, Ajay prefi | Winlator",
+    "snippet": "... Box64 here https://github.com/ptitSeb/box64 ... MASTER WINDOWS EMULATOR ON ANDROID - WINLATOR SETTINGS EXPLAIN / WINLATOR GUIDE.",
+    "host_name": "www.youtube.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/ptitseb/box64",
+    "name": "Box64 - Linux Userspace x86_64 Emulator with a twist  - GitHub",
+    "snippet": "Systems with both Box64 and Box86 can run 32- and 64-bit Windows programs. Note: You can use Wine WOW64 build to run x86 Windows programs in Box64-only ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://kuscholarworks.ku.edu/entities/publication/b43160c6-397a-4565-bd81-0092471862c3",
+    "name": "Analysis of Performance Overheads in DynamoRIO Binary Translator",
+    "snippet": "DynamoRIO uses several optimization techniques like code caching, trace creation, optimized software technique to emulate indirect branch instructions, etc. to ...",
+    "host_name": "kuscholarworks.ku.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dynamorio.org",
+    "name": "DynamoRIO",
+    "snippet": "DynamoRIO is a runtime code manipulation system that supports code transformations on any part of a program, while it executes.",
+    "host_name": "dynamorio.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/244424246_Dynamic_Optimization_of_IA32_Applications_Under_DynamoRIO",
+    "name": "Dynamic Optimization of IA32 Applications Under DynamoRIO",
+    "snippet": "This thesis presents two uses of the DynamoRIO runtime introspection and modification system to optimize applications at runtime. The first is a series of ...",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://groups.csail.mit.edu/cag/rio/tim-meng-thesis.pdf",
+    "name": "[PDF] Dynamic Optimization of IA-32 Applications Under DynamoRIO",
+    "snippet": "Itanium processor by dynamically translating hot trace paths into Itanium IA-64 assembly through DynamoRIO while allowing the less frequently executed ...",
+    "host_name": "groups.csail.mit.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/10.1145/3640813",
+    "name": "An Instruction Inflation Analyzing Framework for Dynamic Binary",
+    "snippet": "Dynamic binary translators (DBTs) are widely used to migrate applications between different instruction set architectures (ISAs).",
+    "host_name": "dl.acm.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.talosintelligence.com/dynamic-binary-instrumentation-dbi-with-dynamorio",
+    "name": "Dynamic binary instrumentation (DBI) with DynamoRio",
+    "snippet": "This blog introduces dynamic binary instrumentation (DBI) and guides you through building your own DBI tool with the open-source DynamoRIO ...",
+    "host_name": "blog.talosintelligence.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

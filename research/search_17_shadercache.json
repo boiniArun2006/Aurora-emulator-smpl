@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.reddit.com/r/vulkan/comments/1i5o93m/how_does_shader_precaching_work_in_vulkan",
+    "name": "How Does Shader Pre-Caching Work in Vulkan Ecosystems  - Reddit",
+    "snippet": "Shader/pipeline caching is more viable on Vulkan as Vulkan exposes multiple direct APIs for programmers to use to assist caching.",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=F-ffYldeJaE",
+    "name": "How to Speed Up Shader Compilation on Steam - YouTube",
+    "snippet": "... Steam uses for background shader processing. This tweak is especially useful for: • Steam Proton games • Vulkan-based games • Linux gaming ...",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://steamcommunity.com/discussions/forum/1/3279194062595915652",
+    "name": "Steam Proton \"Processing Vulkan Shaders\" every boot",
+    "snippet": "Steam > Settings > Shader Pre-Cache. reduce memory use processing shader caches, improve performance, and reduce disk I/O when updating ...",
+    "host_name": "steamcommunity.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/ValveSoftware/Proton/issues/7176",
+    "name": "Processing vulkan shaders every time I launch a game #7176 - GitHub",
+    "snippet": "The shader pre-cache subsystem takes hardware independent shaders which have been seen in the wild with a game and feeds that into your video driver.",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=hfdzAC5y3OU",
+    "name": "How To Enable & Disable Shader Pre Caching In Steam 2024",
+    "snippet": "In this video, we'll show you how to enable and disable shader pre-caching in Steam ... Vulkan Shaders: Why Your Game Takes So Long to Load. Linux ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tech.slashdot.org/story/26/04/02/042250/nvidia-rolls-out-its-fix-for-pc-gamings-compiling-shaders-wait-times",
+    "name": "Nvidia Rolls Out Its Fix For PC Gaming's 'Compiling Shaders' Wait",
+    "snippet": "Nvidia has begun rolling out a beta feature that automatically compiles game shaders while a PC is idle. It won't eliminate shader ...",
+    "host_name": "tech.slashdot.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://docs.mesa3d.org/drivers/panfrost.html",
+    "name": "Panfrost — The Mesa 3D Graphics Library latest documentation",
+    "snippet": "The Panfrost driver stack includes an OpenGL ES implementation for Arm Mali GPUs based on the Midgard and Bifrost microarchitectures.",
+    "host_name": "docs.mesa3d.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.phoronix.com/search/Panfrost",
+    "name": "Panfrost - Phoronix",
+    "snippet": "Arm Mali G1 Pro Now Working With Open-Source PanVK & Panfrost Drivers · Mesa, 2026-05-13 ; Mesa 26.1 Released With Many Improvements For Open-Source Vulkan ...",
+    "host_name": "www.phoronix.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/winlator/comments/1u1mfoc/mali_gpu_have_open_source_drivers_and_diary",
+    "name": "mali gpu have open source drivers and diary community updates",
+    "snippet": "mali gpu have open source drivers and diary community updates (panfrost/panvk) like adreno but why they thought kbase was a good idea?",
+    "host_name": "www.reddit.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.collabora.com/news-and-blog/news-and-events/release-the-panthor.html",
+    "name": "Release the panthor! - Collabora",
+    "snippet": "As some might have noticed, we are working on a Vulkan driver for these new GPUs and expect to get the existing Vulkan driver for older ...",
+    "host_name": "www.collabora.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rust-for-linux.com/tyr-gpu-driver",
+    "name": "Tyr GPU Driver - Rust for Linux",
+    "snippet": "Tyr is a new Rust-based DRM driver for CSF-based Arm Mali GPUs. It is a port of Panthor — a driver written in C for the same hardware — and written as a joint ...",
+    "host_name": "rust-for-linux.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://community.mnt.re/t/has-anyone-tried-genuine-mali-drivers/3576",
+    "name": "Has anyone tried genuine Mali drivers? - MNT Community",
+    "snippet": "Meanwhile the open source mesa/panvk is already at Vulkan 1.3… ARM is actively supporting the panthor/panvk driver, see Release the panthor!",
+    "host_name": "community.mnt.re",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

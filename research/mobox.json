@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/olegos2/mobox",
+    "name": "olegos2/mobox - GitHub",
+    "snippet": "Mobox is a project designed to run windows x86 applications in Termux using Box64 and Wine. Installation. Install Termux, Termux-X11 and ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=SfCKHWUwAr0",
+    "name": "How to install Mobox Emulator (BOX64 & WINE) - Termux - YouTube",
+    "snippet": "In this video I show you how to install Windows programs (x86 and x64 bits) on your Android device thanks to Termux and MOBOX.",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ivonblog.com/en-us/posts/termux-mobox",
+    "name": "Play Windows games from Steam on an Android phone: Mobox",
+    "snippet": "Because Box64 translating Wine consumes a lot of performance, if you plan to play 3D AAA games, the phone processor should preferably be ...",
+    "host_name": "ivonblog.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/1cvspi1/question_about_mobox_wine_drivers",
+    "name": "Question about mobox wine drivers : r/EmulationOnAndroid - Reddit",
+    "snippet": "I try to use any of the wined 3d drivers instead of the dxvk drivers. I get a flipped inverted image. I'm using a galaxy s24 plus with a snapdragon 8 gen 3.",
+    "host_name": "www.reddit.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=0TpaszqByG4",
+    "name": "Install MOBOX PC Emulator on Any MediaTek/Exynos/Tensor",
+    "snippet": "MOBOX Windows Emulator on Android. credits: olegos2 minimum: Android 10 or higher Fix: Mesa VirGL Drivers for Mali GPU, Wine 3D 0:00 intro ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/1am9fli/mobox_wow64_released_32bit_games_performance",
+    "name": "Mobox WoW64 released - 32-bit games performance improved",
+    "snippet": "15 votes, 11 comments. Can confirm that Mobox now works on my Snapdragon 8 Gen 3 device.",
+    "host_name": "www.reddit.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.androidb.com/2025/03/mobox-emulator-for-android-play-pc-games-on-your-phone",
+    "name": "Mobox Emulator for Android: Play PC games on your phone",
+    "snippet": "Mobox is an open-source emulation project that lets you run Windows PC games on your Android device. Built on top of tools like Wine (a ...",
+    "host_name": "www.androidb.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=QutabrN6uZw",
+    "name": "Install Apps on MOBOX PC Emulator? - Wine 9.1 x64 Android",
+    "snippet": "Do Apps work on MOBOX PC Emulator? - Wine 9.1 x64 Android, Tested on Samsung Dex How to setup MOBOX: https://youtu.be/PJs7o8-3fBk MOBOX Best ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://gitee.com/angyuang/mobox",
+    "name": "angyuang/mobox - Gitee",
+    "snippet": "Mobox 是一个旨在使用Box64 和Wine 在Termux 中运行Windows x86 应用程序的项目。 安装. 安装Termux、Termux-X11 和Input Bridge。 打开termux 并粘贴以下命令. curl -s ...",
+    "host_name": "gitee.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/olegos2/mobox/issues/155",
+    "name": "Games won't start · Issue #155 · olegos2/mobox - GitHub",
+    "snippet": "But in the wine change the turnip to v4 instead of v5, it seems to perform better for me. Some games may require you to use different dynarec ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

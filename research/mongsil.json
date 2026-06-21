@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://dl.winehq.org/wine-builds/android",
+    "name": "of /wine-builds/android (winehq.org) - Download",
+    "snippet": "No information is available for this page. · Learn why",
+    "host_name": "dl.winehq.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/wine_gaming/comments/y77ecp/wine_for_android",
+    "name": "Wine for android : r/wine_gaming - Reddit",
+    "snippet": "Wine on Android is almost useless. The default wine builds only allow you to run Arm64 applications, which are almost non-existent.",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=gStNsc_cdZI",
+    "name": "Wine Android Tutorial: How To Get Windows Programs On Android",
+    "snippet": "We've covered installing Linux on ChromeOS and Wine on ChromeOS. Now let's learn how to install Wine on Android using ChromeOS.",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://wine-for-android.en.uptodown.com/android",
+    "name": "Wine for Android - Download the APK from Uptodown",
+    "snippet": "Wine is a multiplatform reader that can run programs designed for Windows systems on other operating systems.",
+    "host_name": "wine-for-android.en.uptodown.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=7gENbC32vMs",
+    "name": "Winlator for Android Can Run Windows Apps & Games with Wine",
+    "snippet": "... emulation application called Winlator. #android #samsunggalaxy #googlepixel #galaxys23 #galaxys22 #emulation #samsunggalaxys23 ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://wineforandroid.neocities.org",
+    "name": "WINE For Android",
+    "snippet": "Wine (originally an acronym for \"Wine Is Not an Emulator\") is a compatibility layer capable of running Windows applications on several POSIX-compliant operating ...",
+    "host_name": "wineforandroid.neocities.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://docs.vulkan.org/samples/latest/samples/extensions/descriptor_indexing/README.html",
+    "name": "Descriptor indexing :: Vulkan Documentation Project",
+    "snippet": "RenderDoc supports debugging of descriptor indexing. When inspecting the state panel, we can see all the descriptors which were accessed in the draw call.",
+    "host_name": "docs.vulkan.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.nvidia.com/vulkan-driver",
+    "name": "Vulkan Driver Support - NVIDIA Developer",
+    "snippet": "Yes, the beta drivers typically pass the latest version of Vulkan conformance. Current conformance status can be found at https://www.khronos.org/conformance/.",
+    "host_name": "developer.nvidia.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/vulkan/comments/y4ap9e/arm_mali_should_i_ignore_this_vulkan_warning",
+    "name": "[Arm Mali] Should i ignore this Vulkan warning? - Reddit",
+    "snippet": "I'm rendering a cone using index type 8, but the warning appears even though I use index type 16 and 32. It is a behavior of older Mali GPUs ...",
+    "host_name": "www.reddit.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.arm.com/documentation/101897/0304/CPU-overheads/Optimizing-descriptor-sets-and-layouts-for-Vulkan",
+    "name": "Optimizing descriptor sets and layouts for Vulkan - Arm Developer",
+    "snippet": "GPUs support four simultaneous bound descriptor sets at the API level. Descriptor indexing Using the extension VK_EXT_descriptor_indexing allows the use of ...",
+    "host_name": "developer.arm.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/79501978/why-is-non-uniform-dynamic-indexing-of-descriptors-uniforms-so-hard-to-do",
+    "name": "Why is non-uniform dynamic indexing of descriptors  - Stack Overflow",
+    "snippet": "Android devices don't support Vulkan 1.2 or Descriptor Indexing. In WebGPU, which is supposed to be a new, modern graphics API does not support ...",
+    "host_name": "stackoverflow.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.collabora.com/news-and-blog/blog/2021/06/11/open-source-opengl-es-3.1-on-mali-gpus-with-panfrost",
+    "name": "Open Source OpenGL ES 3.1 on Mali GPUs with Panfrost - Collabora",
+    "snippet": "With a Vulkan driver. Mali GPUs present an unusual stateless interface. Instead of commands, the driver prepares descriptors containing large ...",
+    "host_name": "www.collabora.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

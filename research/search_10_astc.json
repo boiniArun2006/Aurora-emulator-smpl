@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://themaister.net/blog/2020/08/12/compressed-gpu-texture-formats-a-review-and-compute-shader-decoders-part-1",
+    "name": "Compressed GPU texture formats – a review and compute shader",
+    "snippet": "ASTC's roots are on Mali GPUs, but it was always a Khronos standard, and is widely supported now on mobile Vulkan implementation (and Intel iGPU ...",
+    "host_name": "themaister.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.nvidia.com/astc-texture-compression-for-game-assets",
+    "name": "Using ASTC Texture Compression for Game Assets",
+    "snippet": "The objective of texture compression is to reduce data size, while minimizing impact on visual quality.",
+    "host_name": "developer.nvidia.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aras-p.info/blog/2020/12/08/Texture-Compression-in-2020",
+    "name": "Texture Compression in 2020 - Aras Pranckevičius",
+    "snippet": "On PC, you'd use BC7 (modern) or DXTC (old) formats. On mobile, you'd use ASTC (modern) or ETC (old) formats. Backstory on compression libraries.",
+    "host_name": "aras-p.info",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://sv-journal.org/2014-1/06/en/index.php?lang=en",
+    "name": "Texture Compression Techniques - Scientific Visualization",
+    "snippet": "In particular, PVRTC is only available on the iOS platform, BC6H/BC7 is missing in mobile devices and ETC is not supported by desktop GPUs. For developers ...",
+    "host_name": "sv-journal.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/mosra/basis-universal",
+    "name": "mosra/basis-universal: Basis Universal GPU Texture Codec - GitHub",
+    "snippet": "Basis Universal is a supercompressed compressed GPU texture and compressed texture video compression system that outputs a highly compressed intermediate file ...",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://nahjaeho.github.io/papers/SA20/QUICKETC2_SA20.pdf",
+    "name": "[PDF] QuickETC2: Fast ETC2 Texture Compression using Luma Differences",
+    "snippet": "Basis Universal provides higher compression ratios than the original ETC1/2, and a super- compressed basis texture can be transcoded into one of the standard.",
+    "host_name": "nahjaeho.github.io",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

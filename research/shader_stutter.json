@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.reddit.com/r/Amd/comments/zitv7x/people_dont_understand_shader_cache_stuttering",
+    "name": "People don't understand shader cache stuttering and compilation",
+    "snippet": "A lot more people are starting to become aware of Unreal 4's DX12 shader compilation stutters, but they don't understand what they are, why they happen.",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/godotengine/godot/issues/61233",
+    "name": "Shader compilation stutter when materials enter the view frustum for",
+    "snippet": "Primarily this will be solved with a combination of ubershaders (we already have the structure set up), pipeline caching, and asynchronous ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.zdoom.org/viewtopic.php?style=5&t=76981",
+    "name": "Asynchronous Vulkan Shader/Pipeline Generation & Portable Cache",
+    "snippet": "If I allow the shaders to remain cached I won't get stutters associated with those particular shaders again, however shaders don't stay cached forever, and the ...",
+    "host_name": "forum.zdoom.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.godotengine.org/en/stable/tutorials/performance/pipeline_compilations.html",
+    "name": "Reducing stutter from shader (pipeline) compilations - Godot Docs",
+    "snippet": "To avoid shader stutters in Compatibility, you need to use the legacy approach of preloading materials, shaders, and particles by displaying them for at least ...",
+    "host_name": "docs.godotengine.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.developer.nvidia.com/t/pre-compiled-shader-cache-cleaned-by-nvidia-driver-causing-stutter-when-launching-vulkan-apps/336196",
+    "name": "Pre-compiled shader cache cleaned by nvidia driver, causing stutter",
+    "snippet": "When launching the game again, the existing shader were deleted by nvidia driver due to exceeding driver's openGL/vulkan shader cache size limit.",
+    "host_name": "forums.developer.nvidia.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=EZWfiqRB02w",
+    "name": "Solving #StutterStruggle: Could A PC App Compile Shaders Offline?",
+    "snippet": "Vulkan allows a pre compilation step to an intermediate language kinda thing. This is used by Steam OS to replicate caches between several ...",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.reddit.com/r/linux_gaming/comments/1661e2j/clarifying_wined3d_dxvk_opengl_and_vulkan",
+    "name": "Clarifying wined3d, dxvk, opengl, and vulkan : r/linux_gaming - Reddit",
+    "snippet": "The only Graphics API translation layer in Wine is WineD3D, which has an OpenGL and Vulkan backend. for Legacy Direct3D Gaming",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.phoronix.com/forums/forum/software/linux-gaming/1026281-wine-d3d-code-now-defaults-to-opengl-4-4-contexts",
+    "name": "Wine D3D Code Now Defaults To OpenGL 4.4 Contexts - Phoronix",
+    "snippet": "Wine's Direct3D to OpenGL translation layer will now default to using OpenGL 4.4 contexts rather than legacy OpenGL contexts... defaults to 4.4 ...",
+    "host_name": "www.phoronix.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=cAkvOCfeLTk",
+    "name": "Vulkan vs OpenGL for Legacy Direct3D Gaming on Linux - YouTube",
+    "snippet": "D7VK is a project to provide Direct3D 3-7 using Vulkan on Linux. https://github.com/WinterSnowfall/d7vk PC: AMD Ryzen 5 5600X 6-Core ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=64z6mq_x17M",
+    "name": "Wined3d.dll Missing? Fix DirectX to OpenGL! - YouTube",
+    "snippet": "Execute Legacy DirectX Setup · Resetting settings related to wined3d.dll · Identifying reliable download sources · Refreshing the operating system ...",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://linuxreviews.org/The_New_Wine_Vulkan_Backend_For_DirectX_9-11_Is_Coming_Along_Nicely",
+    "name": "The New Wine Vulkan Backend For DirectX 9-11 Is Coming Along",
+    "snippet": "The Wine developers have secretly been working on their own Direct3D 9-11 to Vulkan translation layer written entirely in beautiful C.",
+    "host_name": "linuxreviews.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.comminos.com/posts/2018-02-21-wined3d-profiling.html",
+    "name": "Approaching One Driver Overhead - Andrew Comminos' Blog",
+    "snippet": "wined3d is the library responsible for translating Direct3D calls into OpenGL calls. Newer versions of wine use a command stream to execute ...",
+    "host_name": "www.comminos.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]
