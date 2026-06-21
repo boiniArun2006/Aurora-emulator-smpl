@@ -1,0 +1,30 @@
+# Build artifacts
+third_party/basis_universal/build/
+third_party/basis_universal/bin/
+third_party/*/build/
+third_party/*/.git/
+third_party/*/.git
+
+# Don't commit third-party sources (rebuildable from manifest)
+third_party/basis_universal/
+third_party/meshoptimizer/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Test outputs (regeneratable)
+tests/texture_engine_input/
+tests/texture_engine_output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

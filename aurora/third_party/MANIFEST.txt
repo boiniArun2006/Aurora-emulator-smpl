@@ -1,0 +1,7 @@
+# Third-party dependencies manifest
+#
+# Each entry: name | repo URL | commit/tag | license | purpose
+# Rebuild with: bash scripts/setup_third_party.sh
+
+basis_universal | https://github.com/BinomialLLC/basis_universal | master | Apache-2.0 | Texture transcoding (BCn <-> ASTC <-> ETC2)
+meshoptimizer   | https://github.com/zeux/meshoptimizer          | master | MIT       | Mesh simplification (QEM-based)
