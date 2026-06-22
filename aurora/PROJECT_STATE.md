@@ -129,8 +129,13 @@ python3 src/texture_engine/aot_texture_transcoder.py test --quality fast
 
 1. **Read this file first** (`/home/z/my-project/aurora/PROJECT_STATE.md`)
 2. **Read the worklog** (`/home/z/my-project/aurora/worklog.md`) — chronological log of every session
-3. **Check git log** for commit history: `cd /home/z/my-project/aurora && git log --oneline`
-4. **Pick up at "Next Session" section above**
+3. **Read the docs/** folder:
+   - `docs/RESEARCH_SYNTHESIS.md` — the deep research that informed the architecture
+   - `docs/COMPETITOR_COMPARISON.md` — Aurora vs Winlator/Mobox/GameNative/GameHub
+   - `docs/AAA_FEASIBILITY.md` — honest analysis of what AAA games we can/can't run
+   - `docs/ARCHITECTURE_DECISIONS.md` — why each decision was made (read before changing anything)
+4. **Check git log** for commit history: `git -C /home/z/my-project/aurora log --oneline`
+5. **Pick up at "Next Session" section below**
 
 ---
 

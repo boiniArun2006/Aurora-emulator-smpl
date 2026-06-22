@@ -235,3 +235,30 @@ Stage Summary:
   rate by up to 43 percentage points on realistic game access patterns.
 - CI extended to run Phase 3 PoC and validate prefetching improves hit rate >0.
 - Next: Phase 4 — Shader cache infrastructure design.
+
+---
+Task ID: aurora-session-break
+Agent: Main (Super Z)
+Session: 2026-06-22
+Task: Persist all in-chat context to GitHub before taking a break
+
+Work Log:
+- User asked to save all important context from chat to GitHub before break
+- Created docs/RESEARCH_SYNTHESIS.md — the deep research findings from session 1
+  (emulator landscape, why Mali fails, x86→ARM techniques, graphics translation,
+  modular engines, classical algorithms, feasibility verdict)
+- Created docs/COMPETITOR_COMPARISON.md — Aurora vs Winlator/Mobox/GameNative/GameHub
+  (feature table, where Aurora wins/loses/ties, realistic predictions, RDR2 analysis)
+- Created docs/AAA_FEASIBILITY.md — honest analysis of what we can/can't run
+  (what works, what doesn't, bottleneck hierarchy, milestone path)
+- Created docs/ARCHITECTURE_DECISIONS.md — 13 key decisions with rationale
+  (Basis Universal, KTX2/UASTC, ASTC 4x4, meshoptimizer, Patterson prefetch,
+  separate prefetch buffer, fork Box64/DXVK, Python PoC + C++ production,
+  NO DRM bypass, Android 10+ target, pinned deps, CI on every push)
+- Updated PROJECT_STATE.md with pointers to all docs/
+- All docs committed and pushed to GitHub
+
+Stage Summary:
+- All in-chat context now persisted to GitHub at /home/z/my-project/aurora/docs/
+- Next session can pick up by reading PROJECT_STATE.md → docs/ → worklog.md
+- Taking a break. Phase 4 (Shader cache infrastructure) is next when we resume.
