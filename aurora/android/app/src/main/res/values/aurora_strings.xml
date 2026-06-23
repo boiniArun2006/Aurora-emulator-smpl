@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aurora Engine settings -->
+    <string name="aurora_settings_title">Aurora Engines</string>
+    <string name="aurora_settings_subtitle">AOT preprocessing + runtime optimizations</string>
+
+    <!-- Phase 1: Texture Engine -->
+    <string name="aurora_texture_title">AOT Texture Transcoder</string>
+    <string name="aurora_texture_subtitle">Converts BCn to ASTC at install time (3-4x smaller, no runtime emulation)</string>
+
+    <!-- Phase 2: Mesh Engine -->
+    <string name="aurora_mesh_title">Mesh LOD Simplification</string>
+    <string name="aurora_mesh_subtitle">QEM simplification at multiple LOD levels (faster rendering on low-end)</string>
+
+    <!-- Phase 3: Loader Engine -->
+    <string name="aurora_prefetch_title">Predictive File Prefetching</string>
+    <string name="aurora_prefetch_subtitle">Markov model predicts next file access (+43%% hit rate)</string>
+
+    <!-- Phase 4: Shader Cache -->
+    <string name="aurora_shader_title">Per-Game Shader Cache</string>
+    <string name="aurora_shader_subtitle">Eliminates shader stutter on second launch</string>
+
+    <!-- Phase 6: Mali Sanitizer -->
+    <string name="aurora_mali_title">Mali Vulkan Sanitizer</string>
+    <string name="aurora_mali_subtitle">Filters crash-causing extensions on Mali GPUs (10 rules)</string>
+    <string name="aurora_mali_status_active">Active (Vulkan layer loaded)</string>
+    <string name="aurora_mali_status_fallback">Active (DXVK config fallback)</string>
+    <string name="aurora_mali_status_inactive">Inactive (non-Mali GPU)</string>
+
+    <!-- Phase 7a: Auto-Installer -->
+    <string name="aurora_autoinstaller_title">Auto-Install Dependencies</string>
+    <string name="aurora_autoinstaller_subtitle">Detects and installs VC++, DirectX, PhysX, .NET automatically</string>
+
+    <!-- Status -->
+    <string name="aurora_status_enabled">Enabled</string>
+    <string name="aurora_status_disabled">Disabled</string>
+    <string name="aurora_status_processing">Processing…</string>
+    <string name="aurora_status_not_available">Not available (native library missing)</string>
+</resources>

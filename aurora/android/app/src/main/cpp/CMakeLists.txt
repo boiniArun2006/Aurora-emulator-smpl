@@ -78,10 +78,10 @@ target_link_options(vulkan_renderer PRIVATE -Wl,-z,max-page-size=16384)
 # cross-compiler. The resulting .so goes in imagefs/usr/lib/.
 # =============================================================================
 add_library(aurora_mali_sanitizer SHARED
-            aurora_mali_sanitizer/aurora_mali_sanitizer.c)
+            aurora_mali_sanitizer/aurora_mali_sanitizer.cpp)
 
 target_compile_options(aurora_mali_sanitizer PRIVATE
-                       -Wall -Wextra -fvisibility=hidden -std=c11)
+                       -Wall -Wextra -fvisibility=hidden -std=c++17)
 
 target_link_libraries(aurora_mali_sanitizer
                       log

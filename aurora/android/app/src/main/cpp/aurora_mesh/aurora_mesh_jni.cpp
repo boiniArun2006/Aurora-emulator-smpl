@@ -44,6 +44,16 @@ Java_com_winlator_core_AuroraMeshHelper_nativeSimplify(
     jfloat* verts = env->GetFloatArrayElements(vertices, nullptr);
     jint* idx = env->GetIntArrayElements(indices, nullptr);
 
+    // Validate: all indices must be < vertexCount
+    for (int i = 0; i < indexCount; i++) {
+        if (idx[i] < 0 || idx[i] >= vertexCount) {
+            LOGE("Index %d out of bounds: %d (vertexCount=%d)", i, idx[i], vertexCount);
+            env->ReleaseFloatArrayElements(vertices, verts, JNI_ABORT);
+            env->ReleaseIntArrayElements(indices, idx, JNI_ABORT);
+            return nullptr;
+        }
+    }
+
     unsigned int* dstIndices = (unsigned int*)malloc(indexCount * sizeof(unsigned int));
     if (!dstIndices) {
         env->ReleaseFloatArrayElements(vertices, verts, JNI_ABORT);

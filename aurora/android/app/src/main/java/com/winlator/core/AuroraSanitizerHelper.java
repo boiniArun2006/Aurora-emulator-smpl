@@ -76,7 +76,7 @@ public class AuroraSanitizerHelper {
         envVars.put("AURORA_MALI_SANITIZER", "fallback");
 
         // Get existing DXVK_CONFIG and append our Mali workarounds
-        String existingConfig = envVars.get("DXVK_CONFIG", "");
+        String existingConfig = envVars.get("DXVK_CONFIG");
         if (existingConfig.isEmpty()) {
             envVars.put("DXVK_CONFIG", "\"" + MALI_DXVK_CONFIG + "\"");
         } else {
