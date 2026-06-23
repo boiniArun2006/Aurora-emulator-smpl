@@ -124,6 +124,7 @@ import com.winlator.contents.AdrenotoolsManager
 import com.winlator.contents.ContentProfile
 import com.winlator.contents.ContentsManager
 import com.winlator.core.AppUtils
+import com.winlator.core.AuroraPrefetchHelper
 import com.winlator.core.AuroraShaderCacheHelper
 import com.winlator.core.Callback
 import com.winlator.core.DXVKHelper
@@ -4908,6 +4909,9 @@ private suspend fun extractGraphicsDriverFiles(
             DXVKHelper.setVKD3DEnvVars(context, dxwrapperConfig, envVars)
         }
 
+        // Aurora Phase 3: Markov-based predictive file prefetcher
+        AuroraPrefetchHelper.setupPrefetcher(context, container, envVars)
+
         if (graphicsDriver == "turnip") {
             envVars.put("GALLIUM_DRIVER", "zink")
             envVars.put("TU_OVERRIDE_HEAP_SIZE", "4096")
@@ -5042,6 +5046,9 @@ private suspend fun extractGraphicsDriverFiles(
         } else if (dxwrapper.contains("vkd3d")) {
             DXVKHelper.setVKD3DEnvVars(context, dxwrapperConfig, envVars)
         }
+
+        // Aurora Phase 3: Markov-based predictive file prefetcher
+        AuroraPrefetchHelper.setupPrefetcher(context, container, envVars)
 
         val useDRI3: Boolean = container.isUseDRI3
         if (!useDRI3) {
