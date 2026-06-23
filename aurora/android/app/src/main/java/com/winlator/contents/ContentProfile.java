@@ -17,6 +17,9 @@ public class ContentProfile {
     public static final String MARK_WINE_LIBPATH = "libPath";
     public static final String MARK_WINE_PREFIX_PACK = "prefixPack";
     public static final String MARK_PROTON = "proton";
+    // Aurora: official flag from WinNative-Components manifest.
+    // True for verified/official builds, false for community builds.
+    public static final String MARK_OFFICIAL = "official";
 
     public enum ContentType {
         CONTENT_TYPE_WINE("Wine"),
@@ -64,4 +67,9 @@ public class ContentProfile {
     public String wineBinPath;
     public String winePrefixPack;
     public String remoteUrl;
+    // Aurora: true for official/verified builds from the manifest.
+    // Defaults to false for community builds. Parsed from the "official"
+    // field in the WinNative-Components contents.json manifest.
+    // Accepts boolean, number (non-zero), or string ("1"/"true"/"yes").
+    public boolean isOfficial = false;
 }

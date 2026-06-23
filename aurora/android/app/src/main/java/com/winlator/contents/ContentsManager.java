@@ -106,6 +106,8 @@ public class ContentsManager {
                     remoteProfile.type = ContentProfile.ContentType.getTypeByName(object.getString("type"));
                     remoteProfile.verName = object.getString("verName");
                     remoteProfile.verCode = object.getInt("verCode");
+                    // Aurora: parse official flag (boolean, number, or string)
+                    remoteProfile.isOfficial = parseOfficialFlag(object.opt(ContentProfile.MARK_OFFICIAL));
                     remoteProfiles.add(remoteProfile);
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -115,6 +117,69 @@ public class ContentsManager {
             e.printStackTrace();
         }
         syncContents();
+    }
+
+    /**
+     * Aurora: Interprets the optional "official" marker from the manifest.
+     * Accepts a string ("1"/"true"/"yes"), a number (non-zero), or a boolean
+     * so the contents.json author can use whichever form is convenient.
+     * Ported from WinNative-Emu/WinNative ContentsManager.java.
+     */
+    private static boolean parseOfficialFlag(Object value) {
+        if (value == null) return false;
+        if (value instanceof Boolean) return (Boolean) value;
+        if (value instanceof Number) return ((Number) value).intValue() != 0;
+        String s = value.toString().trim();
+        return s.equals("1") || s.equalsIgnoreCase("true") || s.equalsIgnoreCase("yes");
+    }
+
+    /**
+     * Aurora: Detects the compression type of an archive by reading its magic bytes.
+     * Supports XZ (0xFD 0x37 0x7A 0x58 0x5A 0x00) and Zstd (0x28 0xB5 0x2F 0xFD).
+     * Also handles .wcp files (WinNative's custom extension) which are just
+     * renamed .tar.xz or .tar.zst archives.
+     *
+     * Ported from WinNative-Emu/WinNative ContentsManager.detectCompressionType().
+     * Source verified 2026-06-23.
+     */
+    private static TarCompressorUtils.Type detectCompressionType(Context context, Uri uri) {
+        try {
+            byte[] header = new byte[6];
+            int read;
+            if (uri.toString().startsWith("/") || "file".equalsIgnoreCase(uri.getScheme())) {
+                String path = uri.getPath();
+                if (path == null) path = uri.toString();
+                try (java.io.FileInputStream fis = new java.io.FileInputStream(path)) {
+                    read = fis.read(header);
+                }
+            } else {
+                try (java.io.InputStream is = context.getContentResolver().openInputStream(uri)) {
+                    if (is == null) return TarCompressorUtils.Type.XZ;
+                    read = is.read(header);
+                }
+            }
+            // XZ magic: 0xFD 0x37 0x7A 0x58 0x5A 0x00
+            if (read >= 6
+                    && header[0] == (byte) 0xFD
+                    && header[1] == '7'
+                    && header[2] == 'z'
+                    && header[3] == 'X'
+                    && header[4] == 'Z'
+                    && header[5] == 0x00) {
+                return TarCompressorUtils.Type.XZ;
+            }
+            // Zstd magic: 0x28 0xB5 0x2F 0xFD
+            if (read >= 4
+                    && (header[0] & 0xFF) == 0x28
+                    && (header[1] & 0xFF) == 0xB5
+                    && (header[2] & 0xFF) == 0x2F
+                    && (header[3] & 0xFF) == 0xFD) {
+                return TarCompressorUtils.Type.ZSTD;
+            }
+        } catch (Exception ignored) {
+        }
+        // Default to XZ (most common for .txz/.wcp files)
+        return TarCompressorUtils.Type.XZ;
     }
 
     public void syncContents() {
@@ -168,10 +233,22 @@ public class ContentsManager {
 
         File file = getTmpDir(context);
 
+        // Aurora: detect compression type by magic bytes instead of trial-and-error.
+        // This also handles .wcp files (WinNative's custom extension) which are
+        // just renamed .tar.xz or .tar.zst archives.
+        // Ported from WinNative-Emu/WinNative ContentsManager.detectCompressionType().
+        TarCompressorUtils.Type compressionType = detectCompressionType(context, uri);
+
         boolean ret;
-        ret = TarCompressorUtils.extract(TarCompressorUtils.Type.XZ, context, uri, file);
-        if (!ret)
-            ret = TarCompressorUtils.extract(TarCompressorUtils.Type.ZSTD, context, uri, file);
+        ret = TarCompressorUtils.extract(compressionType, context, uri, file);
+        if (!ret) {
+            // Fallback: try the other compression type
+            TarCompressorUtils.Type fallbackType =
+                (compressionType == TarCompressorUtils.Type.ZSTD)
+                    ? TarCompressorUtils.Type.XZ
+                    : TarCompressorUtils.Type.ZSTD;
+            ret = TarCompressorUtils.extract(fallbackType, context, uri, file);
+        }
         if (!ret) {
             callback.onFailed(InstallFailedReason.ERROR_BADTAR, null);
             return;

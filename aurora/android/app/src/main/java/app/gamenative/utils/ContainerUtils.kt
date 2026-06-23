@@ -52,13 +52,36 @@ object ContainerUtils {
         listOf(WRAPPER_TURNIP_CAPABLE, WRAPPER_ADRENO_8ELITE_GEN5, WRAPPER_ADRENO_8ELITE)
 
     fun setContainerDefaults(context: Context) {
+        // Aurora: try to use manifest-driven versions from ContentsManager.
+        // Falls back to hardcoded defaults if the manifest hasn't been loaded
+        // (first launch, offline, or no remote profiles available).
+        val contentsManager = com.winlator.contents.ContentsManager(context)
+        contentsManager.syncContents()
+
+        // Helper: get latest version from manifest, or fall back to hardcoded
+        fun latestBox64(): String =
+            contentsManager.getLatestVersionName(
+                com.winlator.contents.ContentProfile.ContentType.CONTENT_TYPE_BOX64,
+                DefaultVersion.BOX64
+            )
+        fun latestDxvk(): String =
+            contentsManager.getLatestVersionName(
+                com.winlator.contents.ContentProfile.ContentType.CONTENT_TYPE_DXVK,
+                DefaultVersion.DXVK
+            )
+        fun latestVkd3d(): String =
+            contentsManager.getLatestVersionName(
+                com.winlator.contents.ContentProfile.ContentType.CONTENT_TYPE_VKD3D,
+                DefaultVersion.VKD3D
+            )
+
         // Override default driver and DXVK version based on Turnip capability
         if (GPUInformation.isTurnipCapable(context)) {
             DefaultVersion.VARIANT = Container.BIONIC
             DefaultVersion.WINE_VERSION = "proton-10.0-arm64ec-2"
             DefaultVersion.DEFAULT_GRAPHICS_DRIVER = "Wrapper"
-            DefaultVersion.DXVK = if (GPUInformation.isAdreno6xx(context)) "1.11.1-sarek" else "2.4.1-gplasync"
-            DefaultVersion.VKD3D = "2.14.1"
+            DefaultVersion.DXVK = if (GPUInformation.isAdreno6xx(context)) "1.11.1-sarek" else latestDxvk()
+            DefaultVersion.VKD3D = latestVkd3d()
             DefaultVersion.WRAPPER = WRAPPER_TURNIP_CAPABLE
             DefaultVersion.STEAM_TYPE = Container.STEAM_TYPE_NORMAL
             DefaultVersion.ASYNC_CACHE = "1"
@@ -66,8 +89,8 @@ object ContainerUtils {
             DefaultVersion.VARIANT = Container.BIONIC
             DefaultVersion.WINE_VERSION = "proton-10.0-arm64ec-2"
             DefaultVersion.DEFAULT_GRAPHICS_DRIVER = "Wrapper"
-            DefaultVersion.DXVK = "2.4.1-gplasync"
-            DefaultVersion.VKD3D = "2.14.1"
+            DefaultVersion.DXVK = latestDxvk()
+            DefaultVersion.VKD3D = latestVkd3d()
             DefaultVersion.WRAPPER = WRAPPER_ADRENO_8ELITE_GEN5
             DefaultVersion.STEAM_TYPE = Container.STEAM_TYPE_NORMAL
             DefaultVersion.ASYNC_CACHE = "1"
@@ -75,8 +98,8 @@ object ContainerUtils {
             DefaultVersion.VARIANT = Container.BIONIC
             DefaultVersion.WINE_VERSION = "proton-10.0-arm64ec-2"
             DefaultVersion.DEFAULT_GRAPHICS_DRIVER = "Wrapper"
-            DefaultVersion.DXVK = "2.4.1-gplasync"
-            DefaultVersion.VKD3D = "2.14.1"
+            DefaultVersion.DXVK = latestDxvk()
+            DefaultVersion.VKD3D = latestVkd3d()
             DefaultVersion.WRAPPER = WRAPPER_ADRENO_8ELITE
             DefaultVersion.STEAM_TYPE = Container.STEAM_TYPE_NORMAL
             DefaultVersion.ASYNC_CACHE = "1"
@@ -85,7 +108,7 @@ object ContainerUtils {
             DefaultVersion.WINE_VERSION = "proton-10.0-arm64ec-2"
             DefaultVersion.DEFAULT_GRAPHICS_DRIVER = "Wrapper"
             DefaultVersion.DXVK = "async-1.10.3"
-            DefaultVersion.VKD3D = "2.14.1"
+            DefaultVersion.VKD3D = latestVkd3d()
             DefaultVersion.STEAM_TYPE = Container.STEAM_TYPE_LIGHT
             DefaultVersion.ASYNC_CACHE = "0"
         }
