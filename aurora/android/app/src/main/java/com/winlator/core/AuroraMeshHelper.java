@@ -117,10 +117,14 @@ public class AuroraMeshHelper {
                         Log.d(TAG, "  " + lodNames[i] + ": " +
                               (mesh.indexCount / 3) + " -> " +
                               (newCount / 3) + " tris");
-                        // TODO: Save simplified mesh as .obj
-                        // (For now, just log the results. Saving requires
-                        // writing the OBJ format, which is straightforward
-                        // but verbose.)
+
+                        // Save the simplified mesh as a .obj file
+                        String baseName = objFile.getName().replace(".obj", "");
+                        File lodFile = new File(lodCacheDir, baseName + "_" + lodNames[i] + ".obj");
+                        int[] lodIndices = new int[newCount];
+                        System.arraycopy(result, 1, lodIndices, 0, newCount);
+                        writeObj(lodFile, mesh.vertices, mesh.vertexCount, lodIndices, newCount);
+                        Log.d(TAG, "  Saved: " + lodFile.getPath());
                     }
                 }
                 processed++;
@@ -161,13 +165,29 @@ public class AuroraMeshHelper {
                         verts.add(Float.parseFloat(parts[3]));
                     }
                 } else if (line.startsWith("f ")) {
-                    // Face: "f i0 i1 i2" or "f i0/t i1/t i2/t" etc.
-                    // OBJ indices are 1-based
+                    // Face: "f i0 i1 i2" or "f i0 i1 i2 i3" (quad) or more (n-gon)
+                    // OBJ indices are 1-based. Handle v/vt/vn format too.
                     String[] parts = line.split("\\s+");
-                    for (int i = 1; i < parts.length && i <= 3; i++) {
+                    java.util.List<Integer> faceIndices = new java.util.ArrayList<>();
+                    for (int i = 1; i < parts.length; i++) {
                         String idxStr = parts[i].split("/")[0];
-                        int idx = Integer.parseInt(idxStr) - 1; // Convert to 0-based
-                        if (idx >= 0) faces.add(idx);
+                        try {
+                            int idx = Integer.parseInt(idxStr);
+                            if (idx < 0) idx = verts.size() / 3 + idx + 2; // negative = relative
+                            else idx = idx - 1; // convert 1-based to 0-based
+                            if (idx >= 0) faceIndices.add(idx);
+                        } catch (NumberFormatException e) {
+                            // skip non-numeric
+                        }
+                    }
+                    // Fan-triangulate: if the face has >3 vertices, split into triangles
+                    // (v0, v1, v2), (v0, v2, v3), (v0, v3, v4), ...
+                    if (faceIndices.size() >= 3) {
+                        for (int i = 1; i < faceIndices.size() - 1; i++) {
+                            faces.add(faceIndices.get(0));
+                            faces.add(faceIndices.get(i));
+                            faces.add(faceIndices.get(i + 1));
+                        }
                     }
                 }
             }
@@ -186,6 +206,37 @@ public class AuroraMeshHelper {
         } catch (Exception e) {
             Log.w(TAG, "OBJ parse failed: " + e.getMessage());
             return null;
+        }
+    }
+
+    /**
+     * Write a mesh to a Wavefront .obj file.
+     * Writes vertices (v x y z) and triangular faces (f i0 i1 i2).
+     * The consumer of this output is the game's LOD loading system,
+     * which picks the appropriate LOD based on screen-space size.
+     */
+    private static void writeObj(File outFile, float[] vertices, int vertexCount,
+                                  int[] indices, int indexCount) {
+        try {
+            java.io.PrintWriter writer = new java.io.PrintWriter(outFile);
+            writer.println("# Aurora Mesh Engine — QEM simplified LOD");
+            writer.println("# vertices: " + vertexCount + ", triangles: " + (indexCount / 3));
+
+            // Write vertices (1-indexed in OBJ)
+            for (int i = 0; i < vertexCount; i++) {
+                writer.printf("v %.6f %.6f %.6f%n",
+                    vertices[i * 3], vertices[i * 3 + 1], vertices[i * 3 + 2]);
+            }
+
+            // Write faces (1-indexed)
+            for (int i = 0; i < indexCount; i += 3) {
+                writer.printf("f %d %d %d%n",
+                    indices[i] + 1, indices[i + 1] + 1, indices[i + 2] + 1);
+            }
+
+            writer.close();
+        } catch (Exception e) {
+            Log.e(TAG, "Failed to write OBJ: " + e.getMessage());
         }
     }
 

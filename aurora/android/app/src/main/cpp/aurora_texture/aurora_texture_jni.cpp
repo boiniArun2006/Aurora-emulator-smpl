@@ -154,7 +154,15 @@ Java_com_winlator_core_AuroraTextureHelper_nativeTranscodeKtx2ToAstc(
     astcHeader[15] = 0;
     fwrite(astcHeader, 1, 16, outFile);
 
-    // Transcode each mip level
+    // Transcode each layer × face × mip level
+    // For 2D textures: layers=0 (or 1), faces=1
+    // For cubemaps: layers=0, faces=6
+    // For texture arrays: layers=N, faces=1
+    // We iterate all combinations so nothing gets silently dropped.
+    uint32_t effectiveLayers = (layers == 0) ? 1 : layers;
+    uint32_t effectiveFaces = (faces == 0) ? 1 : faces;
+    uint32_t totalSlices = effectiveLayers * effectiveFaces;
+
     bool success = true;
     for (uint32_t level = 0; level < levels; level++) {
         uint32_t levelWidth = width >> level;
@@ -164,45 +172,55 @@ Java_com_winlator_core_AuroraTextureHelper_nativeTranscodeKtx2ToAstc(
 
         uint32_t blocksX = (levelWidth + 3) / 4;
         uint32_t blocksY = (levelHeight + 3) / 4;
-        uint32_t totalBlocks = blocksX * blocksY;
-        uint32_t outputSize = totalBlocks * 16;  // 16 bytes per ASTC 4x4 block
+        uint32_t blocksPerSlice = blocksX * blocksY;
+        uint32_t outputSizePerSlice = blocksPerSlice * 16;
 
-        void* outputBuf = malloc(outputSize);
-        if (!outputBuf) {
-            LOGE("Cannot allocate %u bytes for ASTC output", outputSize);
-            success = false;
-            break;
+        // For multi-slice textures, transcode each slice and write sequentially
+        for (uint32_t layerIdx = 0; layerIdx < effectiveLayers; layerIdx++) {
+            for (uint32_t faceIdx = 0; faceIdx < effectiveFaces; faceIdx++) {
+                void* outputBuf = malloc(outputSizePerSlice);
+                if (!outputBuf) {
+                    LOGE("Cannot allocate %u bytes for ASTC output (level %u, layer %u, face %u)",
+                         outputSizePerSlice, level, layerIdx, faceIdx);
+                    success = false;
+                    break;
+                }
+
+                bool result = ktx2_tc.transcode_image_level(
+                    level,
+                    layerIdx,
+                    faceIdx,
+                    outputBuf,
+                    blocksPerSlice,
+                    basist::transcoder_texture_format::cTFASTC_4x4_RGBA,
+                    0
+                );
+
+                if (!result) {
+                    LOGE("Transcode failed for level %u, layer %u, face %u",
+                         level, layerIdx, faceIdx);
+                    free(outputBuf);
+                    success = false;
+                    break;
+                }
+
+                size_t written = fwrite(outputBuf, 1, outputSizePerSlice, outFile);
+                free(outputBuf);
+
+                if (written != outputSizePerSlice) {
+                    LOGE("Short write for level %u, layer %u, face %u: got %zu, expected %u",
+                         level, layerIdx, faceIdx, written, outputSizePerSlice);
+                    success = false;
+                    break;
+                }
+
+                LOGI("Transcoded level %u, layer %u, face %u: %ux%u -> %u blocks (%u bytes)",
+                     level, layerIdx, faceIdx, levelWidth, levelHeight,
+                     blocksPerSlice, outputSizePerSlice);
+            }
+            if (!success) break;
         }
-
-        // Transcode this level using ktx2_transcoder's API
-        bool result = ktx2_tc.transcode_image_level(
-            level,              // level_index
-            0,                  // layer_index
-            0,                  // face_index
-            outputBuf,          // pOutput_blocks
-            totalBlocks,        // output_blocks_buf_size_in_blocks_or_pixels
-            basist::transcoder_texture_format::cTFASTC_4x4_RGBA,  // target format
-            0                   // decode_flags
-        );
-
-        if (!result) {
-            LOGE("Transcode failed for level %u", level);
-            free(outputBuf);
-            success = false;
-            break;
-        }
-
-        size_t written = fwrite(outputBuf, 1, outputSize, outFile);
-        free(outputBuf);
-
-        if (written != outputSize) {
-            LOGE("Short write for level %u: got %zu, expected %u", level, written, outputSize);
-            success = false;
-            break;
-        }
-
-        LOGI("Transcoded level %u: %ux%u -> %u blocks (%u bytes)",
-             level, levelWidth, levelHeight, totalBlocks, outputSize);
+        if (!success) break;
     }
 
     fclose(outFile);

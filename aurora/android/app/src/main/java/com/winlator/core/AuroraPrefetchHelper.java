@@ -33,6 +33,20 @@ import java.util.List;
  * LD_PRELOAD inside the glibc/PRoot environment. This helper sets up
  * the infrastructure (model + env vars) for that library.
  *
+ * STUB NOTICE: The LD_PRELOAD C library (libaurora_prefetch.so) that
+ * would log file accesses and perform posix_fadvise() prefetching
+ * DOES NOT EXIST YET. As a result:
+ *   - setupPrefetcher() works (sets env vars) but the env vars are
+ *     consumed by nothing at runtime — no file access logging happens.
+ *   - processTrace() will always find an empty/missing trace file
+ *     and return false. The Markov model is never trained.
+ *   - The MarkovModel.kt class itself is fully implemented and tested,
+ *     but has no data source feeding it.
+ * Until libaurora_prefetch.so is built (requires glibc cross-compile,
+ * same as libredirect.so that GameNative already uses), this entire
+ * phase is infrastructure-only — it sets up env vars that a future
+ * C library will read, but no C library reads them today.
+ *
  * Algorithm reference:
  *   Patterson et al. 1995, "Informed Prefetching and Caching", SOSP '95
  */
