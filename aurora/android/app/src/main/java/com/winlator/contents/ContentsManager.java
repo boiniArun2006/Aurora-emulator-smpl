@@ -25,7 +25,10 @@ import java.util.Map;
 
 public class ContentsManager {
     public static final String PROFILE_NAME = "profile.json";
-    public static final String REMOTE_PROFILES_URL = "https://raw.githubusercontent.com/longjunyu2/winlator/main/content/metadata.json";
+    // Updated 2026-06-23: WinNative-Components manifest (134 entries, actively maintained)
+    // Source: https://github.com/nicholasx417/WinNative-Components
+    // Old URL (longjunyu2/winlator) had only 11 entries, last updated 2024
+    public static final String REMOTE_PROFILES_URL = "https://raw.githubusercontent.com/nicholasx417/WinNative-Components/refs/heads/main/contents.json";
     public static final String[] TURNIP_TRUST_FILES = {"${libdir}/libvulkan_freedreno.so", "${libdir}/libvulkan.so.1",
             "${sharedir}/vulkan/icd.d/freedreno_icd.aarch64.json", "${libdir}/libGL.so.1", "${libdir}/libglapi.so.0"};
     public static final String[] VORTEK_TRUST_FILES = {"${libdir}/libvulkan_vortek.so", "${libdir}/libvulkan_freedreno.so",
@@ -310,6 +313,60 @@ public class ContentsManager {
         if (profilesMap != null)
             return profilesMap.get(type);
         return null;
+    }
+
+    /**
+     * Aurora: Get the latest available version of a component type from the
+     * merged local+remote profiles. Uses verCode for numeric comparison
+     * (higher = newer). Falls back to the first profile if no verCode > 0.
+     *
+     * This replaces the static constants in DefaultVersion.java for runtime
+     * version selection. DefaultVersion still provides compile-time fallbacks
+     * for when the manifest hasn't been loaded yet.
+     *
+     * @param type The component type (BOX64, DXVK, VKD3D, WINE, PROTON, etc.)
+     * @return The ContentProfile with the highest verCode, or null if none available.
+     */
+    public ContentProfile getLatestVersion(ContentProfile.ContentType type) {
+        List<ContentProfile> profiles = getProfiles(type);
+        if (profiles == null || profiles.isEmpty()) return null;
+
+        ContentProfile latest = profiles.get(0);
+        for (ContentProfile profile : profiles) {
+            if (profile.verCode > latest.verCode) {
+                latest = profile;
+            }
+        }
+
+        // If all verCodes are 0 (community builds don't set verCode),
+        // fall back to lexicographic comparison of verName
+        if (latest.verCode == 0) {
+            for (ContentProfile profile : profiles) {
+                if (profile.verName != null && latest.verName != null
+                        && profile.verName.compareToIgnoreCase(latest.verName) > 0) {
+                    latest = profile;
+                }
+            }
+        }
+
+        return latest;
+    }
+
+    /**
+     * Aurora: Get the latest version name string for a component type.
+     * Convenience wrapper around getLatestVersion() that returns just the
+     * verName string, or a fallback if no profiles are available.
+     *
+     * @param type The component type
+     * @param fallback Fallback string if no profiles available (e.g. DefaultVersion.BOX64)
+     * @return The latest version name, or the fallback
+     */
+    public String getLatestVersionName(ContentProfile.ContentType type, String fallback) {
+        ContentProfile latest = getLatestVersion(type);
+        if (latest != null && latest.verName != null && !latest.verName.isEmpty()) {
+            return latest.verName;
+        }
+        return fallback;
     }
 
     public static File getInstallDir(Context context, ContentProfile profile) {
