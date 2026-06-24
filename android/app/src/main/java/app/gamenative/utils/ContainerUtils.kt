@@ -58,40 +58,37 @@ object ContainerUtils {
         val contentsManager = com.winlator.contents.ContentsManager(context)
         contentsManager.syncContents()
 
-        // Helper: get latest version from manifest, or fall back to hardcoded
-        fun latestBox64(): String =
-            contentsManager.getLatestVersionName(
-                com.winlator.contents.ContentProfile.ContentType.CONTENT_TYPE_BOX64,
-                DefaultVersion.BOX64
-            )
-        fun latestDxvk(): String =
-            contentsManager.getLatestVersionName(
-                com.winlator.contents.ContentProfile.ContentType.CONTENT_TYPE_DXVK,
-                DefaultVersion.DXVK
-            )
-        fun latestVkd3d(): String =
-            contentsManager.getLatestVersionName(
-                com.winlator.contents.ContentProfile.ContentType.CONTENT_TYPE_VKD3D,
-                DefaultVersion.VKD3D
-            )
+        // Get latest versions from manifest, or fall back to hardcoded
+        val latestBox64 = contentsManager.getLatestVersionName(
+            com.winlator.contents.ContentProfile.ContentType.CONTENT_TYPE_BOX64,
+            DefaultVersion.BOX64
+        )
+        val latestDxvk = contentsManager.getLatestVersionName(
+            com.winlator.contents.ContentProfile.ContentType.CONTENT_TYPE_DXVK,
+            DefaultVersion.DXVK
+        )
+        val latestVkd3d = contentsManager.getLatestVersionName(
+            com.winlator.contents.ContentProfile.ContentType.CONTENT_TYPE_VKD3D,
+            DefaultVersion.VKD3D
+        )
 
         // Override default driver and DXVK version based on Turnip capability
         if (GPUInformation.isTurnipCapable(context)) {
             DefaultVersion.VARIANT = Container.BIONIC
             DefaultVersion.WINE_VERSION = "proton-10.0-arm64ec-2"
             DefaultVersion.DEFAULT_GRAPHICS_DRIVER = "Wrapper"
-            DefaultVersion.DXVK = if (GPUInformation.isAdreno6xx(context)) "1.11.1-sarek" else latestDxvk()
-            DefaultVersion.VKD3D = latestVkd3d()
+            DefaultVersion.DXVK = if (GPUInformation.isAdreno6xx(context)) "1.11.1-sarek" else latestDxvk
+            DefaultVersion.VKD3D = latestVkd3d
             DefaultVersion.WRAPPER = WRAPPER_TURNIP_CAPABLE
-            DefaultVersion.BOX64 = latestBox64()
+            DefaultVersion.BOX64 = latestBox64
             DefaultVersion.STEAM_TYPE = Container.STEAM_TYPE_NORMAL
             DefaultVersion.ASYNC_CACHE = "1"
         } else if (GPUInformation.isAdreno8EliteGen5(context)) {
             DefaultVersion.VARIANT = Container.BIONIC
             DefaultVersion.WINE_VERSION = "proton-10.0-arm64ec-2"
             DefaultVersion.DEFAULT_GRAPHICS_DRIVER = "Wrapper"
-            DefaultVersion.DXVK = latestDxvk()
-            DefaultVersion.VKD3D = latestVkd3d()
+            DefaultVersion.DXVK = latestDxvk
+            DefaultVersion.VKD3D = latestVkd3d
             DefaultVersion.WRAPPER = WRAPPER_ADRENO_8ELITE_GEN5
             DefaultVersion.STEAM_TYPE = Container.STEAM_TYPE_NORMAL
             DefaultVersion.ASYNC_CACHE = "1"
@@ -99,8 +96,8 @@ object ContainerUtils {
             DefaultVersion.VARIANT = Container.BIONIC
             DefaultVersion.WINE_VERSION = "proton-10.0-arm64ec-2"
             DefaultVersion.DEFAULT_GRAPHICS_DRIVER = "Wrapper"
-            DefaultVersion.DXVK = latestDxvk()
-            DefaultVersion.VKD3D = latestVkd3d()
+            DefaultVersion.DXVK = latestDxvk
+            DefaultVersion.VKD3D = latestVkd3d
             DefaultVersion.WRAPPER = WRAPPER_ADRENO_8ELITE
             DefaultVersion.STEAM_TYPE = Container.STEAM_TYPE_NORMAL
             DefaultVersion.ASYNC_CACHE = "1"
@@ -109,7 +106,7 @@ object ContainerUtils {
             DefaultVersion.WINE_VERSION = "proton-10.0-arm64ec-2"
             DefaultVersion.DEFAULT_GRAPHICS_DRIVER = "Wrapper"
             DefaultVersion.DXVK = "async-1.10.3"
-            DefaultVersion.VKD3D = latestVkd3d()
+            DefaultVersion.VKD3D = latestVkd3d
             DefaultVersion.STEAM_TYPE = Container.STEAM_TYPE_LIGHT
             DefaultVersion.ASYNC_CACHE = "0"
         }
