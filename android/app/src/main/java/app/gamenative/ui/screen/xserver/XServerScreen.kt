@@ -3318,9 +3318,9 @@ private fun setupXEnvironment(
 
     guestProgramLauncherComponent.envVars = envVars
 
-    // Capture context before the callback — LocalContext.current is @Composable
-    // and can't be called inside try/catch or non-composable lambdas.
-    val auroraContext = LocalContext.current
+    // Use the context parameter passed to setupXEnvironment
+    // (setupXEnvironment is not @Composable, so we use the passed context)
+    val auroraContext = context
 
     val gameTerminationCallback = Callback<Int> { status ->
         if (status != 0) {
