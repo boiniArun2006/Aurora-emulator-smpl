@@ -16,7 +16,7 @@ project(aurora_native CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Encoder must NOT use -ktx2_zstandard_level when creating KTX2 files for this transcoder
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -Wall -fvisibility=hidden -DBASISD_SUPPORT_KTX2_ZSTD=0  /\* Encoder must NOT use zstd \*/")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -Wall -fvisibility=hidden -DBASISD_SUPPORT_KTX2_ZSTD=0")
 
 # =============================================================================
 # 1. Aurora Mali Vulkan Sanitizer Layer
