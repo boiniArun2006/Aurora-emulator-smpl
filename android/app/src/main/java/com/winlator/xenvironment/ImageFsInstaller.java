@@ -227,7 +227,7 @@ public abstract class ImageFsInstaller {
                 String manifest = "{\n" +
                     "  \"file_format_version\": \"1.1.0\",\n" +
                     "  \"layer\": {\n" +
-                    "    \"name\": \"Aurora Mali Sanitizer\",\n" +
+                    "    \"name\": \"Aurora_Mali_Sanitizer\",\n" +
                     "    \"type\": \"GLOBAL\",\n" +
                     "    \"library_path\": \"libaurora_mali_sanitizer.so\",\n" +
                     "    \"api_version\": \"1.3.0\",\n" +

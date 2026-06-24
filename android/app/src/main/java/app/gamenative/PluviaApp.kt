@@ -105,15 +105,18 @@ class PluviaApp : SplitCompatApplication() {
             Timber.e(e, "[PluviaApp]: Failed to clear temporary config overrides")
         }
 
-        // Initialize PostHog Analytics
-        val postHogConfig = PostHogAndroidConfig(
-            apiKey = BuildConfig.POSTHOG_API_KEY,
-            host = BuildConfig.POSTHOG_HOST,
-        ).apply {
-            /* turn every event into an identified one */
-            personProfiles = PersonProfiles.ALWAYS
+        // Aurora B14: Only init PostHog if user opted in
+        if (PrefManager.usageAnalyticsEnabled && !BuildConfig.POSTHOG_API_KEY.isNullOrEmpty()) {
+            // Initialize PostHog Analytics
+            val postHogConfig = PostHogAndroidConfig(
+                apiKey = BuildConfig.POSTHOG_API_KEY,
+                host = BuildConfig.POSTHOG_HOST,
+            ).apply {
+                /* turn every event into an identified one */
+                personProfiles = PersonProfiles.NEVER  // B14: No user profiles
+            }
+            PostHogAndroid.setup(this, postHogConfig)
         }
-        PostHogAndroid.setup(this, postHogConfig)
 
         if (PrefManager.usageAnalyticsEnabled) {
             com.posthog.PostHog.capture(

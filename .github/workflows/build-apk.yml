@@ -1,7 +1,4 @@
 # Aurora Emulator - Android APK Build + Release
-#
-# Builds the APK on every push to main and creates a GitHub release.
-# APK is uploaded as both an artifact (Actions UI) and a release asset.
 
 name: Build APK
 
@@ -11,6 +8,7 @@ on:
     paths:
       - 'android/**'
       - '.github/workflows/build-apk.yml'
+  push:
     tags:
       - 'v*'
   workflow_dispatch:
@@ -72,37 +70,7 @@ jobs:
           generate_release_notes: true
           draft: false
           prerelease: true
-          body: |
-            ## Aurora Emulator — PC Gaming on Android
-
-            ### Download
-            Download `Aurora-*.apk` below and install on your Android phone.
-
-            ### What's included
-            - Full Box64 + Wine + DXVK integration
-            - Aurora Mali Vulkan Sanitizer (10 rules, full Vulkan layer mode)
-            - AOT Texture Transcoder (Basis Universal)
-            - Mesh LOD Simplification (meshoptimizer QEM)
-            - Markov Predictive File Prefetcher
-            - Per-Game Shader Cache
-            - Auto-Installer (VC++/DirectX/PhysX/.NET)
-            - Aurora settings tab in per-game config
-            - Component manifest from WinNative (134 entries)
-            - .wcp file import support
-
-            ### Requirements
-            - Android 8.0+ (API 26+)
-            - ARM64 device (arm64-v8a)
-            - Adreno 6xx+ or Mali Valhall+ GPU
-
-            ### How to install
-            1. Download the APK
-            2. Enable "Install from unknown sources" in Android settings
-            3. Tap the APK file to install
-            4. Launch Aurora and wait for initial setup
           files: Aurora-*.apk
-          draft: false
-          prerelease: true
 
       - name: Upload build reports on failure
         if: failure()
