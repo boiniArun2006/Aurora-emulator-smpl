@@ -203,6 +203,54 @@ public abstract class ImageFsInstaller {
         chmod(new File(imagefs, "usr/lib/libredirect.so"));
         chmod(new File(imagefs, "usr/lib/libredirect-bionic.so"));
 
+        // Aurora Phase 6: Deploy the Mali Vulkan sanitizer layer to imagefs.
+        // The .so is compiled by NDK during the Gradle build and packaged
+        // in the APK's native lib directory (jniLibs/arm64-v8a/).
+        // We copy it to imagefs/usr/lib/ so the Vulkan loader can find it
+        // via VK_LAYER_PATH. The layer JSON manifest goes alongside it.
+        // If the .so doesn't exist (build didn't include native code), this
+        // silently skips — the DXVK config fallback in AuroraSanitizerHelper
+        // still provides Mali workarounds without the .so.
+        try {
+            File sanitizerSo = new File(imagefs, "usr/lib/libaurora_mali_sanitizer.so");
+            File sanitizerJson = new File(imagefs, "usr/lib/aurora_mali_sanitizer.json");
+
+            // Copy from the APK's native lib directory
+            File nativeLibDir = new File(ctx.getApplicationInfo().nativeLibraryDir);
+            File apkSo = new File(nativeLibDir, "libaurora_mali_sanitizer.so");
+            if (apkSo.exists()) {
+                FileUtils.copy(apkSo, sanitizerSo);
+                chmod(sanitizerSo);
+                Log.i("ImageFsInstaller", "Aurora: deployed Mali sanitizer .so to " + sanitizerSo);
+
+                // Write the Vulkan layer manifest JSON
+                String manifest = "{\n" +
+                    "  \"file_format_version\": \"1.1.0\",\n" +
+                    "  \"layer\": {\n" +
+                    "    \"name\": \"Aurora Mali Sanitizer\",\n" +
+                    "    \"type\": \"GLOBAL\",\n" +
+                    "    \"library_path\": \"libaurora_mali_sanitizer.so\",\n" +
+                    "    \"api_version\": \"1.3.0\",\n" +
+                    "    \"implementation_version\": \"1\",\n" +
+                    "    \"description\": \"Aurora Mali Vulkan Sanitizer\",\n" +
+                    "    \"functions\": {\n" +
+                    "      \"vkNegotiateLoaderLayerInterfaceVersion\": \"vkNegotiateLoaderLayerInterfaceVersion\",\n" +
+                    "      \"vkGetInstanceProcAddr\": \"vkGetInstanceProcAddr\",\n" +
+                    "      \"vkGetDeviceProcAddr\": \"vkGetDeviceProcAddr\"\n" +
+                    "    }\n" +
+                    "  }\n" +
+                    "}";
+                java.io.FileWriter writer = new java.io.FileWriter(sanitizerJson);
+                writer.write(manifest);
+                writer.close();
+                Log.i("ImageFsInstaller", "Aurora: deployed Mali sanitizer JSON to " + sanitizerJson);
+            } else {
+                Log.i("ImageFsInstaller", "Aurora: Mali sanitizer .so not found in APK — using DXVK config fallback only");
+            }
+        } catch (Exception e) {
+            Log.w("ImageFsInstaller", "Aurora: Mali sanitizer deployment failed (non-fatal): " + e.getMessage());
+        }
+
         ensureBionicLib(ctx, imagefs);
 
         // Extract extras.tzst - download from server for modern variant, use bundled assets for legacy

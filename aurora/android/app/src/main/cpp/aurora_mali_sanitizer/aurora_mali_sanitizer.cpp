@@ -17,6 +17,7 @@
 
 #include <vulkan/vulkan.h>
 #include <android/log.h>
+#include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <vector>
@@ -73,9 +74,22 @@ typedef struct {
 } VkLayerDeviceCreateInfo_;
 
 #define TAG "AuroraMaliSanitizer"
-#define LOGI(...) __android_log_print(ANDROID_LOG_INFO, TAG, __VA_ARGS__)
-#define LOGW(...) __android_log_print(ANDROID_LOG_WARN, TAG, __VA_ARGS__)
-#define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, TAG, __VA_ARGS__)
+// Dual logging: try Android log (works when loaded by Android's Vulkan loader
+// in bionic context), fall back to stderr (works inside glibc/PRoot context).
+// This makes the layer work in BOTH environments — as a system Vulkan layer
+// loaded by Android's loader, AND as a layer loaded inside PRoot's glibc env.
+#define LOGI(...) do { \
+    __android_log_print(ANDROID_LOG_INFO, TAG, __VA_ARGS__); \
+    fprintf(stderr, "[" TAG "] INFO: " __VA_ARGS__); fprintf(stderr, "\n"); \
+} while(0)
+#define LOGW(...) do { \
+    __android_log_print(ANDROID_LOG_WARN, TAG, __VA_ARGS__); \
+    fprintf(stderr, "[" TAG "] WARN: " __VA_ARGS__); fprintf(stderr, "\n"); \
+} while(0)
+#define LOGE(...) do { \
+    __android_log_print(ANDROID_LOG_ERROR, TAG, __VA_ARGS__); \
+    fprintf(stderr, "[" TAG "] ERROR: " __VA_ARGS__); fprintf(stderr, "\n"); \
+} while(0)
 
 // =============================================================================
 // Rule database

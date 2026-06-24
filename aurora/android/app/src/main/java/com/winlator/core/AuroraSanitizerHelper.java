@@ -60,13 +60,16 @@ public class AuroraSanitizerHelper {
 
         Log.i(TAG, "Mali GPU detected: " + gpuRenderer + " — enabling sanitizer");
 
-        // Check if the sanitizer .so exists in imagefs
+        // Check if the sanitizer .so exists in imagefs (deployed by ImageFsInstaller)
         File sanitizerSo = new File(imageFs.getRootDir(), "usr/lib/libaurora_mali_sanitizer.so");
+        File sanitizerJson = new File(imageFs.getRootDir(), "usr/lib/aurora_mali_sanitizer.json");
 
-        if (sanitizerSo.exists()) {
+        if (sanitizerSo.exists() && sanitizerJson.exists()) {
             // Full sanitizer mode — load the Vulkan layer
-            Log.i(TAG, "Sanitizer .so found — full Vulkan layer mode");
-            envVars.put("VK_INSTANCE_LAYERS", "libaurora_mali_sanitizer.so");
+            // The Vulkan loader reads VK_INSTANCE_LAYERS to find the layer name,
+            // and VK_LAYER_PATH to find the directory containing the .so + .json manifest.
+            Log.i(TAG, "Sanitizer .so + JSON manifest found — full Vulkan layer mode");
+            envVars.put("VK_INSTANCE_LAYERS", "Aurora_Mali_Sanitizer");
             envVars.put("VK_LAYER_PATH", imageFs.getRootDir().getPath() + "/usr/lib");
             envVars.put("AURORA_MALI_SANITIZER", "1");
             return true;

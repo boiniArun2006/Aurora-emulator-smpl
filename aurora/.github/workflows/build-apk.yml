@@ -18,6 +18,8 @@ jobs:
     name: Build Debug APK
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    permissions:
+      contents: write  # Required for creating GitHub releases
 
     steps:
       - name: Checkout repository
